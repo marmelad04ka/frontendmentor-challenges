@@ -1,0 +1,40 @@
+@import url('base/reset.css');
+@import url('base/variables.css');
+@import url('desctop/desctop.css');
+@import url('mobile/mobile.css');
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('.src/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype-variations'),
+       url('.src/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@supports not (font-variation-settings: normal) {
+  @font-face {
+    font-family: 'Inter';
+    src: url('.src/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('.src/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('.src/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+}

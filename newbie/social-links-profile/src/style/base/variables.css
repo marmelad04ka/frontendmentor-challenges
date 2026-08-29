@@ -1,0 +1,13 @@
+:root {
+    --bg-page: hsl(0, 0%, 8%);
+    --bg-card: hsl(0, 0%, 12%);
+    --bg-button: hsl(0, 0%, 20%);
+    --bg-button-hover: hsl(75, 94%, 57%);
+
+    --text-primary: hsl(0, 0%, 100%);
+    --text-accent: hsl(75, 94%, 57%);
+    --text-button-hover: hsl(0, 0%, 12%);
+    --text-muted: hsl(0, 0%, 70%);
+    --text-link: hsl(228, 45%, 44%);
+
+}

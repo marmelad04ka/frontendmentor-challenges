@@ -1,0 +1,117 @@
+body {
+    /*background-color: hsl(0, 0%, 8%);*/
+    background-color: var(--bg-page);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+    border-radius: 0.8rem;
+    margin-top: auto;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-photo {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.user-photo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 5rem;
+}
+
+.user-name {
+    padding-top: 1.1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.user-place-of-residence {
+    padding-top: 0.4rem;
+    font-size: 0.6rem;
+    color: var(--text-accent);
+    font-weight: 700;
+}
+
+.user-phrase-line {
+    padding-top: 1.5rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
+.buttons-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1rem 1.7rem 1.7rem 2rem;
+    width: 17rem;
+}
+
+.buttons-block a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 0.3rem;
+    background-color: var(--bg-button);
+    color: var(--text-primary);
+    border: 0px;
+    padding: 0.5rem 0rem 0.5rem 0rem; 
+    font-size: 0.6rem;
+    font-weight: 600;
+
+    -webkit-user-drag: none;
+    user-select: none;
+
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+@media (hover: hover) {
+    .buttons-block a:hover,
+    .buttons-block a:focus-visible {
+        background-color: var(--bg-button-hover);
+        color: var(--text-button-hover);
+        cursor: pointer;
+    }
+}
+
+.buttons-block a:active {
+    background-color: var(--bg-button-hover);
+    color: var(--text-button-hover);
+}
+
+.buttons-block a:focus-visible {
+    outline: 2px solid var(--bg-button-hover);
+    outline-offset: 3px; 
+}
+
+.attribution {
+    margin-top: auto;
+    padding-bottom: 1rem;
+
+    font-size: 0.6875rem; 
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.attribution a {
+    color: var(--text-link);
+}

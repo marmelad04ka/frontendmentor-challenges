@@ -1,0 +1,33 @@
+@media (max-width: 500px) {
+    .main-block {
+        width: 90%;
+    }
+
+    .user-photo img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .user-name {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .user-place-of-residence {
+        font-size: 1rem;
+    }
+
+    .user-phrase-line {
+        font-size: 0.8rem;
+    }
+
+    .buttons-block {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .buttons-block a {
+        font-size: 0.9rem;
+        padding: 0.8rem 0rem 0.8rem 0rem;
+    }
+}
