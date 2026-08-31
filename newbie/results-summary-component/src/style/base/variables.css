@@ -1,0 +1,25 @@
+:root {
+    --bg-color-result-block-start: hsl(252, 100%, 67%);
+    --bg-color-result-block-end: hsl(241, 81%, 54%);
+    --bg-color-circle-result-start: hsla(256, 72%, 46%, 1);
+    --bg-color-circle-result-end: hsla(241, 72%, 46%, 0);
+    --bg-color-summary: hsl(0, 0%, 100%);
+    --bg-color-reaction-element: #FFF6F7;
+    --bg-color-memory-element: #FFFAF4;
+    --bg-color-verbal-element: #F2FDF9;
+    --bg-color-visual-element: #F4F4FE;
+    --bg-button: hsl(224, 30%, 27%);
+    --bg-skeleton-result-view-block: hsl(252, 82%, 67%);
+    --bg-skeleton-summary-block: rgb(236, 236, 236);
+
+    --text-primary: hsl(221, 100%, 96%);
+    --text-information: hsl(241, 100%, 89%);
+    --text-reaction: hsl(0, 100%, 67%);
+    --text-memory: hsl(39, 100%, 56%);
+    --text-verbal: hsl(166, 100%, 37%);
+    --text-visual: hsl(234, 85%, 45%);
+    --text-value-result: black;
+
+    --shadow-block-result: hsl(166, 100%, 37%);
+
+}
