@@ -1,5 +1,5 @@
 export async function getTestResultData() {
-    const response = await fetch('/data/data.json'); 
+    const response = await fetch('data/data.json'); 
     const db = await response.json();
 
     return db;
