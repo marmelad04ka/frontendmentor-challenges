@@ -17,7 +17,8 @@ Semantic HTML, CSS, and JavaScript were used for the implementation to dynamical
 View challenges [link](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)  
 View code [link](.newbie/results-summary-component/)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/results-summary-component/)
-</details>
+</details>  
+<details>
 <summary>Product preview card component</summary>
 
 Semantic HTML, CSS  
