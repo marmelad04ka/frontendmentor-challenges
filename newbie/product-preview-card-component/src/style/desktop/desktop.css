@@ -1,0 +1,51 @@
+@media (min-width: 768px) {
+    body {
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+   .main-block {
+        min-height: auto;
+        display: flex;
+        flex-direction: row;
+        height: 28rem;
+        width: 40rem;
+        border-radius: 0.5rem;
+    } 
+
+    .image-block {
+        height: 100%;
+        background-image: url("../../../images/image-product-desktop.jpg");
+        width: 50%;
+    }
+
+    .information-block {
+        padding: 2rem 2.5rem;
+        width: 50%;
+    }
+
+    .item-name {
+        padding-top: 1.3rem;
+        line-height: 1;
+    }
+
+    .item-description {
+        padding-top: 1.2rem;
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .item-price { 
+        padding-top: 1.7rem;
+    }
+
+    .button-cart {
+        cursor: pointer;
+    }
+
+    .button-cart:hover,
+    .button-cart:focus-visible {
+        background-color: var(--bg-button-add-cart-hover);
+    }
+}

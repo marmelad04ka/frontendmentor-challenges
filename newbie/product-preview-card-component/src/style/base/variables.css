@@ -1,0 +1,22 @@
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-cream: hsl(30, 38%, 92%);
+    --color-green-light: hsl(158, 36%, 37%);
+    --color-green-dark: hsl(158, 42%, 18%);
+    --color-black: hsl(212, 21%, 14%);
+    --color-grey: hsl(228, 12%, 48%);
+    --color-dark-blue: hsl(228, 45%, 44%); 
+
+    --bg-page: var(--color-cream);
+    --bg-card: var(--color-white);
+    --bg-button-add-cart: var(--color-green-light);
+    --bg-button-add-cart-hover: var(--color-green-dark);
+
+    --text-item-type: var(--color-grey);
+    --text-item-name: var(--color-black);
+    --text-item-description: var(--color-grey);
+    --text-current-price: var(--color-green-light);
+    --text-old-price: var(--color-grey);
+    --text-button-add-cart: var(--color-white);
+    --text-link: var(--color-dark-blue);
+}
