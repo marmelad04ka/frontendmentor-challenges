@@ -1,0 +1,29 @@
+:root {
+    --color-blue-500: hsl(215, 51%, 70%);
+    --color-cyan-400: hsl(178, 100%, 50%);
+    --color-blue-950: hsl(217, 54%, 11%);
+    --color-blue-900: hsl(216, 50%, 16%);
+    --color-blue-800: hsl(215, 32%, 27%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-dark-blue: hsl(228, 45%, 44%);
+    --color-cyan-400-transparency: rgba(0, 255, 200, 0.5);
+
+    --bg-page: var(--color-blue-950);
+    --bg-card: var(--color-blue-900);
+    --bg-user-avatar: var(--color-white);
+    --bg-image-transparency: var(--color-cyan-400-transparency);
+
+    --line-separator: var(--color-blue-800);
+
+    --text-item-name: var(--color-white);
+    --text-item-description: var(--color-blue-500);
+    --text-cyrrency-nft: var(--color-cyan-400);
+    --text-quantity-lifetime: var(--color-blue-500);
+    --text-user-creator-nft: var(--color-blue-500);
+    --text-user-name: var(--color-white);
+    --text-attribution: var(--color-white);
+    --text-link: var(--color-dark-blue);
+
+    --text-hover-item-name: var(--color-cyan-400);
+    --text-hover-user-name: var(--color-cyan-400);
+}

@@ -1,0 +1,99 @@
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .nft-card-block {
+        height: auto;
+        width: 20rem;
+    }
+
+    .image-nft {
+        position: relative;
+        display: block;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 0.6rem;
+    }
+
+    .image-nft img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .image-nft::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--bg-image-transparency);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        border-radius: 0.6rem;
+
+        background-image: url('../../../images/icon-view.svg'); 
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .image-nft:hover::after {
+        opacity: 1;
+    }
+
+    .name-nft {
+        font-size: 1.2rem;
+    }
+
+    .description-nft {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .image-currency-nft,.image-clock-lifetime {
+        display: flex;
+        align-items: center;
+    }
+
+    .image-currency-nft img {
+        width: 0.6rem;
+        height: auto;
+    }
+
+    .image-clock-lifetime img {
+        width: 0.8rem;
+        height: auto;
+    }
+
+    .quantity-currency-nft,.quantity-lifetime {
+        font-size: 0.9rem;
+    }
+
+    .quantity-lifetime {
+        padding-top: 0.2rem
+    }
+
+    .name-nft:hover,
+    .user-name span:hover {
+        cursor: pointer;
+        color: var(--text-hover-item-name);
+    }
+
+    .user-avatar-img {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .user-name {
+        font-size: 0.9rem;
+    }
+}
