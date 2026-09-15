@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+   <script>
+    document.documentElement.classList.add(
+      'theme-' + (localStorage.getItem('theme') || 'dark')
+    );
+  </script>
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body class="smooth-change-of-theme">
+  <main class="calculator-container smooth-change-of-theme">
+    <header class="header-container">
+      <h1 class="calculator-name">
+        calc
+      </h1>
+
+      <div class="theme-switcher">
+        <span id="theme-label" class="theme-text">
+          THEME
+        </span>
+
+        <div class="switcher-block">
+          <div class="theme_number" aria-hidden="true">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </div>
+
+          <div class="skeleton-switcher" aria-hidden="true">
+
+          </div>
+
+          <div class="switcher-container smooth-change-of-theme align-start hidden">
+            <button 
+              type="button"
+              class="move-circle-switcher-container smooth-change-of-theme"
+              aria-label="Switch theme">
+
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="screen-container smooth-change-of-theme">
+      <output class="screen-value" aria-live="polite" aria-atomic="true"></output>
+    </div>
+
+    <div class="skeleton-button-container" aria-hidden="true">
+
+    </div>
+
+    <div class="button-container smooth-change-of-theme hidden">
+      
+    </div>
+  </main>
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+:root {
+    --clr-navy-400: hsl(224, 51%, 76%);
+    --clr-navy-700: hsl(225, 21%, 49%);
+    --clr-navy-750: hsl(221, 14%, 31%);
+    --clr-navy-800: hsl(224, 28%, 35%);
+    --clr-navy-850: hsl(222, 26%, 31%);
+    --clr-navy-900: hsl(223, 31%, 20%);
+    --clr-navy-950: hsl(224, 36%, 15%);
+    --clr-red-400: hsl(6, 93%, 67%);
+    --clr-red-600: hsl(6, 63%, 50%);
+    --clr-red-800: hsl(6, 70%, 34%);
+    --clr-grey-100: hsl(0, 0%, 93%);
+    --clr-grey-200: hsl(0, 0%, 90%);
+    --clr-grey-300: hsl(0, 5%, 81%);
+    --clr-grey-900: hsl(60, 10%, 19%);
+    --clr-grey-orange: hsl(28, 16%, 65%);
+    --clr-grey-orange-450: hsl(35, 11%, 61%);
+    --clr-white: hsl(0, 100%, 100%);    
+    --clr-blue-400: hsl(186, 42%, 56%);
+    --clr-blue-500: hsl(185, 42%, 37%);
+    --clr-blue-600: hsl(185, 58%, 25%);
+    --clr-blue-950: hsl(198, 20%, 13%);
+    --clr-orange-400: hsl(25, 100%, 61%);
+    --clr-orange-500: hsl(8, 85%, 65%);
+    --clr-orange-700: hsl(25, 98%, 40%);
+    --clr-orange-800: hsl(25, 99%, 27%);
+    --clr-purple-400: hsl(285, 91%, 52%);
+    --clr-purple-650: hsl(267, 54%, 44%);
+    --clr-purple-700: hsl(280, 56%, 44%);
+    --clr-purple-750: hsl(290, 70%, 36%);
+    --clr-purple-800: hsl(281, 89%, 26%);
+    --clr-purple-850: hsl(268, 47%, 21%);
+    --clr-purple-900: hsl(268, 71%, 12%);
+    --clr-purple-950: hsl(268, 75%, 9%);
+    --clr-yellow-300: hsl(52, 100%, 62%);
+    --clr-cyan-300: hsl(177, 100%, 79%);
+    --clr-cyan-400: hsl(177, 92%, 70%);
+    --clr-cyan-500: hsl(176, 100%, 44%);
+}
+
+html.theme-dark {
+    --bg-page: var(--clr-navy-850);
+    --bg-keypad: var(--clr-navy-900);
+    --bg-toogle: var(--clr-navy-900);
+    --bg-screen: var(--clr-navy-950);
+    --bg-key-main: var(--clr-grey-200);
+    --bg-key-main-active: var(--clr-white);
+    --bg-key-equal: var(--clr-red-600);
+    --bg-key-equal-active: var(--clr-red-400);
+    --bg-key-service: var(--clr-navy-700);
+    --bg-key-service-active: var(--clr-navy-400);
+    
+    --toogle: var(--clr-red-600);
+    --toogle-active: var(--clr-orange-500);
+
+    --key-shadow-main: var(--clr-grey-orange);
+    --key-shadow-equal: var(--clr-red-800);
+    --key-shadow-service: var(--clr-navy-800);
+
+    --text-main: var(--clr-white);
+    --text-side: var(--clr-navy-750);
+}
+
+html.theme-light {
+    --bg-page: var(--clr-grey-200);
+    --bg-keypad: var(--clr-grey-300);
+    --bg-toogle: var(--clr-grey-300);
+    --bg-screen: var(--clr-grey-100);
+    --bg-key-main: var(--clr-grey-200);
+    --bg-key-main-active: var(--clr-white);
+    --bg-key-equal: var(--clr-orange-700);
+    --bg-key-equal-active: var(--clr-orange-400);
+    --bg-key-service: var(--clr-blue-500);
+    --bg-key-service-active: var(--clr-blue-400);
+    
+    --toogle: var(--clr-orange-700);
+    --toogle-active: var(--clr-orange-400);
+
+    --key-shadow-main: var(--clr-grey-orange-450);
+    --key-shadow-equal: var(--clr-orange-800);
+    --key-shadow-service: var(--clr-blue-600);
+
+    --text-main: var(--clr-grey-900);
+    --text-white: var(--clr-white);
+}
+
+html.theme-custom {
+    --bg-page: var(--clr-purple-950);
+    --bg-keypad: var(--clr-purple-900);
+    --bg-toogle: var(--clr-purple-900);
+    --bg-screen: var(--clr-purple-900);
+    --bg-key-main: var(--clr-purple-850);
+    --bg-key-main-active: var(--clr-purple-650);
+    --bg-key-equal: var(--clr-cyan-500);
+    --bg-key-equal-active: var(--clr-cyan-300);
+    --bg-key-service: var(--clr-purple-800);
+    --bg-key-service-active: var(--clr-purple-700);
+    
+    --toogle: var(--clr-cyan-500);
+    --toogle-active: var(--clr-cyan-300);
+
+    --key-shadow-main: var(--clr-purple-750);
+    --key-shadow-equal: var(--clr-cyan-400);
+    --key-shadow-service: var(--clr-purple-400);
+
+    --text-main: var(--clr-yellow-300);
+    --text-white: var(--clr-blue-850);
+    --text-blue-950: var(--clr-blue-950)
+}

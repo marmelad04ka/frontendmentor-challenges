@@ -1,0 +1,47 @@
+@media (min-width: 768px) {
+    body {
+        padding: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    .calculator-container {
+        width: 30rem;
+    }
+
+    .screen-container {
+        height: 6rem;
+    }
+
+    .button-container > * {
+        flex: 1 1 calc(25% - 0.7rem * 3 / 4);
+        min-width: 0;
+    }
+
+    .button-container button {
+        height: 3.5rem;
+        cursor: pointer;
+    }
+    .button-container button:focus-visible,
+    .button-container button:hover {
+        background-color: var(--bg-key-main-active);
+    }
+
+    .button-container button.btn-control:focus-visible,
+    .button-container button.btn-control:hover {
+        background-color: var(--bg-key-service-active);
+    }
+
+    .button-container button.btn-equals:focus-visible,
+    .button-container button.btn-equals:hover {
+        background-color: var(--bg-key-equal-active);
+    }
+
+    .move-circle-switcher-container:hover {
+        background-color: var(--toogle-active);
+    }
+    
+}

@@ -1,0 +1,207 @@
+body {
+    background-color: var(--bg-page);
+    padding: 1.5rem;
+    font-family: 'League Spartan', 'sans-serif';
+}
+
+.smooth-change-of-theme {
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.calculator-container {
+    color: var(--text-main);
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.calculator-name {
+    font-size: 2rem;
+}
+
+.theme-switcher {
+    margin-left: auto;
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.theme-text {
+    margin-top: auto;
+    padding-bottom: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.switcher-block {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.theme_number {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+}
+
+.skeleton-switcher {
+    border-radius: 0.5rem;
+    min-height: 1.6rem;
+    width: 4.5rem;
+    background-color: var(--bg-toogle);
+}
+
+.switcher-container {
+    background-color: var(--bg-toogle);
+    border-radius: 1.5rem;
+    width: 4.5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.3rem;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.move-circle-switcher-container {
+    background-color: var(--toogle);
+    border-radius: 50%;
+    width: 0.9rem;
+    height: 0.9rem;
+
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    transition: left 0.25s ease-in-out;
+}
+
+.switcher-container.align-start  .move-circle-switcher-container { left: 0; }
+.switcher-container.align-center .move-circle-switcher-container { left: 1.5rem; }
+.switcher-container.align-end    .move-circle-switcher-container { left: 3.1rem; }
+
+.move-circle-switcher-containeractive {
+    background-color: var(--toogle-active);
+}
+
+.screen-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 1.2rem;
+    background-color: var(--bg-screen);
+    height: 5rem;
+    border-radius: 0.5rem;
+    color: var(--text-main);
+    font-size: 2.5rem;
+    padding: 0 1.5rem;
+    font-weight: 700;
+    padding-top: 0.3rem;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    overflow: hidden;
+}
+
+.screen-value {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.screen-value::-webkit-scrollbar {
+    height: 6px;
+}
+.screen-value::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.2);
+    border-radius: 3px;
+}
+
+.skeleton-button-container {
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    min-height: 23.5rem;
+    background-color: var(--bg-keypad);
+}
+
+.button-container {
+    margin-top: 1.5rem;
+    background-color: var(--bg-keypad);
+    height: fit-content;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1.5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+button {
+    border: none;
+}
+
+.button-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    flex: 1 1 calc(25% - 0.7rem); 
+
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-family: 'League Spartan', 'sans-serif';
+    padding-top: 0.3rem;
+    color: var(--text-side);
+    background-color: var(--bg-key-main);
+    box-shadow: inset 0 -4px 0 var(--key-shadow-main); 
+
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button-container button:active {
+    transform: scale(0.95); 
+    background-color: var(--bg-key-main-active);
+}
+
+.button-container button.btn-control,
+.button-container button.btn-equals {
+    font-size: 1.3rem;
+    color: var(--text-white);
+}
+
+.button-container button.btn-control {
+    background-color: var(--bg-key-service);
+    box-shadow: inset 0 -4px 0 var(--key-shadow-service); 
+    padding-bottom: 0.2rem;
+}
+
+.button-container button.btn-control:active {
+    background-color: var(--bg-key-service-active);
+}
+
+.button-container button.btn-equals {
+    background-color: var(--bg-key-equal);
+    box-shadow: inset 0 -4px 0 var(--key-shadow-equal); 
+    color: var(--text-blue-950);
+}
+
+.button-container button.btn-equals:active {
+    background-color: var(--bg-key-equal-active);
+}
+
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+    color: var(--bg-key-equal);
+}
+.attribution a { 
+    color: blue; 
+}
