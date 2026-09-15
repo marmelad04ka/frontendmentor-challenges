@@ -1,6 +1,6 @@
 # Frontend Mentor Challenges
-
-Newbie  
+<details>
+<summary>Newbie</summary> 
 
 <details>
 <summary>Social Links Profile</summary>
@@ -25,4 +25,26 @@ Semantic HTML, CSS
 View challenges [link](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)  
 View code [link](.newbie/product-preview-card-component/)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/product-preview-card-component/)
+</details>
+<details>
+<summary>Nft preview card component</summary>
+
+Semantic HTML, CSS  
+View challenges [link](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)  
+View code [link](.newbie/nft-preview-card-component/)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/nft-preview-card-component/)
+</details>
+</details>
+
+<details>
+<summary>Intermediate</summary>
+
+<details>
+<summary>Calculator app</summary>
+
+Semantic HTML, CSS, and JavaScript  
+View challenges [link](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29)  
+View code [link](https://github.com/marmelad04ka/frontendmentor-challenges/tree/main/intermediate/calculator-app)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/intermediate/calculator-app/)
+</details>
 </details>
