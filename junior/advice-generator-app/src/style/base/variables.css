@@ -1,0 +1,35 @@
+:root {
+    --clr-blue-950: hsl(218, 23%, 16%);
+    --clr-blue-900: hsl(217, 19%, 24%);
+    --clr-blue-850: hsl(217, 19%, 32%);
+    --clr-blue-800: hsl(217, 19%, 35%);
+    --clr-blue-760: hsl(217, 19%, 45%);
+    --clr-blue-600: hsl(217, 19%, 38%);
+    --clr-blue-200: hsl(193, 38%, 86%);
+
+    --clr-green-500: hsl(150, 60%, 45%);
+    --clr-green-400: hsl(150, 80%, 60%);
+    --clr-green-300: hsl(150, 100%, 66%);
+
+    --bg-page: var(--clr-blue-950);
+    --bg-card: var(--clr-blue-900);
+    --bg-get-random-advice-btn: var(--clr-green-300);
+
+    --text-header: var(--clr-green-300);
+    --text-advice: var(--clr-blue-200);
+
+    --shadow-btn: var(--clr-green-300);
+
+    --skeleton-id-base: var(--clr-green-500);
+    --skeleton-id-glint: var(--clr-green-400);
+
+    --skeleton-phrase-base:  var(--clr-blue-850);
+    --skeleton-phrase-glint: var(--clr-blue-760);
+
+    --skeleton-btn-base: var(--clr-green-500);
+    --skeleton-btn-glint: var(--clr-green-400);
+
+    --skeleton-reduce-id: var(--clr-green-500);
+    --skeleton-reduce-phrase: var(--clr-blue-800);
+    --skeleton-reduce-btn: var(--clr-green-500);
+}

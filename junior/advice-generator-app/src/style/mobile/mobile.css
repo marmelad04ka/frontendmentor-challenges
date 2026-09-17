@@ -1,0 +1,157 @@
+body {
+    background-color: var(--bg-page);
+    font-family: 'Manrope', sans-serif;
+    margin-top: 8rem;
+}
+
+.random-advice-containter {
+    background-color: var(--bg-card);
+    margin: 0 1rem;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.advice-id-container {
+    color: var(--text-header);
+    padding-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+}
+
+.advice-phrase-container {
+    color: var(--text-advice);
+    padding: 2rem 2rem 0rem 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.divider {
+    margin: 0.7rem 2rem 3rem 2rem;
+    height: 50px;
+    width: calc(100% - 4rem);
+    background-image: url('../../../images/pattern-divider-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.button-random-get-advice {
+    position: absolute; 
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    background-color: var(--bg-get-random-advice-btn);
+    border-radius: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    transition: box-shadow 0.3s, transform 0.1s ease;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.button-random-get-advice:active {
+    box-shadow: 0 0 30px var(--shadow-btn);
+    transform: translate(-50%, 50%) scale(0.92);
+}
+
+.button-random-get-advice img {
+    -webkit-user-drag: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.advice-id-skeleton {
+    width: 3rem;
+    height: 1rem;
+    border-radius: 0.8rem;
+    margin-top: 0.05rem;
+    background: linear-gradient(
+        90deg,
+        var(--skeleton-id-base) 25%,
+        var(--skeleton-id-glint) 50%,
+        var(--skeleton-id-base) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite linear;
+}
+
+.advice-phrase-skeleton {
+    margin-top: 2rem;
+    width: 18rem;
+    height: 10rem;
+    border-radius: 0.8rem;
+
+    background: linear-gradient(
+        90deg,
+        var(--skeleton-phrase-base) 25%,
+        var(--skeleton-phrase-glint) 50%,
+        var(--skeleton-phrase-base) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite linear;
+}
+
+
+.button-skeleton {
+    position: absolute; 
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    border-radius: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    left: 50%;
+
+    background: linear-gradient(
+        90deg,
+        var(--skeleton-btn-base) 25%,
+        var(--skeleton-btn-glint) 50%,
+        var(--skeleton-btn-base) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite linear;
+}
+
+@keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .advice-id-skeleton,
+    .advice-phrase-skeleton,
+    .button-skeleton {
+        animation: none;
+    }
+
+    .advice-phrase-skeleton {
+        background: var(--skeleton-reduce-phrase);
+    }
+
+    .advice-id-skeleton {
+        background: var(--skeleton-reduce-id);
+    }
+
+    .button-skeleton {
+        background-color: var(--skeleton-reduce-btn);
+    }
+}
+
+.attribution { 
+    margin-top: 3rem;
+    font-size: 0.6875rem; 
+    text-align: center; 
+    color: wheat;
+}
+.attribution a { 
+    color: hsl(150, 100%, 66%); 
+}

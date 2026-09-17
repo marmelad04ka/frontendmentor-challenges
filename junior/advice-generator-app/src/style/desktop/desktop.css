@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    body {
+        margin-top: 0rem;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .random-advice-containter {
+        width: 30rem;
+    }
+
+    .advice-phrase-skeleton {
+        width: 25rem;
+    }
+
+    .button-random-get-advice:hover {
+        box-shadow: 0 0 30px hsl(150, 100%, 66%);
+    }
+
+    .divider {
+        background-image: url('../../../images/pattern-divider-desktop.svg');
+    }
+}

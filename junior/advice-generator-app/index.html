@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+  <main>
+    <article class="random-advice-containter" aria-labelledby="advice-heading">
+
+      <header class="advice-id-container">
+
+        <h2 id="advice-heading" class="advice-inscription">
+          Advice #
+
+          <span class="advice-id-text hidden" aria-live="polite"></span>
+        </h2>
+
+        <div class="advice-id-skeleton" aria-hidden="true">
+
+        </div>
+
+      </header>
+
+      <p class="advice-phrase-skeleton" aria-hidden="true"></p>
+
+      <p class="advice-phrase-container hidden" aria-live="polite">
+
+      </p>
+
+      <div class="divider" role="presentation" aria-hidden="true"></div>
+
+      <div class="button-skeleton" aria-hidden="true"></div>
+      
+      <button 
+        type="button"
+        class="button-random-get-advice hidden" 
+        aria-label="Get random advice">
+
+        <img src="./images/icon-dice.svg" alt="" aria-hidden="true">
+
+      </button>
+    </article>
+  </main>
+
+  <footer class="attribution">
+    <p>
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/marmelad04ka" target="_blank" rel="noopener noreferrer">marmelad04ka</a>.
+    </p>
+  </footer>
+
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>

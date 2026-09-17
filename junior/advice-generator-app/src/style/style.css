@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+@import url('base/reset.css');
+@import url('base/variables.css');
+
+@import url('mobile/mobile.css');
+@import url('desktop/desktop.css');
+
+.hidden {
+  display: none;
+}
