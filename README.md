@@ -37,6 +37,20 @@ View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie
 </details>
 
 <details>
+<summary>Junior</summary>
+
+<details>
+<summary>Advice generator app</summary>
+
+Html, Css, Js.  
+View challenges [link](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)  
+View code [link](./junior/advice-generator-app)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/advice-generator-app/)  
+</details>  
+
+</details>
+
+<details>
 <summary>Intermediate</summary>
 
 <details>
