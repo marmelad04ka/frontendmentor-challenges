@@ -48,8 +48,6 @@ View code [link](./junior/advice-generator-app)
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/advice-generator-app/)  
 </details>  
 
-</details>
-
 <details>
 <summary>Interactive card details form</summary>
 
@@ -57,7 +55,7 @@ Html, Css, Js.
 View challenges [link](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw)  
 View code [link](./junior/interactive-card-details-form)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/interactive-card-details-form/)  
-</details>  
+</details>
 
 </details>
 
