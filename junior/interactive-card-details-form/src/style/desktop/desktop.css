@@ -1,0 +1,149 @@
+@media (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        font-family: 'Space Grotesk', sans-serif;
+        min-height: 100vh;
+    }
+
+    .card-preview {
+        height: 100vh;
+        width: 100%;
+        flex-shrink: 0;
+        background-image: url('../../../images/bg-main-desktop.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card-back {
+        right: 0%; 
+        width: clamp(22rem, 30vw, 50rem); 
+        height: auto;
+        aspect-ratio: 440 / 245;
+        box-shadow: 0.5rem 1rem 8rem var(--shadow);
+        top:50%;
+        transform: translate(40%, 10%);
+    }
+
+    .card-front {
+        left:auto;
+        top:50%;
+        right: 0%;
+        transform: translate(30%, -100%);
+        width: clamp(22rem, 30vw, 50rem); 
+        height: auto;
+        aspect-ratio: 440 / 245;
+    }
+
+    .card-logo {
+        margin-top: 5%;
+        margin-left: 7%;
+        height: 20%;
+        width: 20%;
+    }
+
+    .card-number {
+        margin-top: 15%;
+        font-size: calc(5cqw, 6.5cqw, 7cqw);
+        margin-left: 7%;
+        padding-left: 0rem;
+    }
+
+    .card-footer {
+        padding: 0 7%;
+        padding-top: 5%;
+    }
+
+    .card-form {
+        justify-content: center;
+        margin-top: 0rem;
+        padding: 0 20% 5% 30%;
+        container-type: inline-size;
+    }
+
+    .field-name label,
+    .field-card-number label {
+        font-size: 3cqw;
+        padding-top: 1.5rem;
+    }
+
+    .another-card-info {
+        padding-top: 1.5rem;
+    }
+
+    .field-cvv label,
+    .field-group span {
+        font-size: 3cqw;
+    }
+
+    input {
+        padding: 1.1rem; 
+        font-size: 3.5cqw;
+    }
+
+    .confirm-button {
+        margin-top: 10%;
+        font-size: 4cqw;
+        padding: 1.5rem;
+    }
+
+    .error {
+        font-size: 3cqw;
+    }
+
+    .another-card-info {
+        gap: 1rem;
+    }
+
+    .success-screen-container {
+        justify-content: center;
+        margin-top: 0rem;
+        padding: 0 25% 5% 40%;
+        container-type: inline-size;
+    }
+
+    .image-check-mark-container {
+        height: 10%;
+        width: 20%;
+    }
+
+    .image-check-mark {
+        height: 100%;
+        width: 100%;
+    }
+
+    .text-container {
+        padding-top: 5%;
+    }
+
+    .thank-text {
+        font-size: 8cqw;
+    }
+
+    .information-text {
+        font-size: 6cqw;
+    }
+
+    .continue-button {
+        font-size: 5cqw;
+        padding: 1.2rem;
+        margin-top: 15%;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    button:focus-visible {
+        outline: 3px solid var(--focus-visible-button);
+        outline-offset: 2px;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 2%;
+        right: 12cqw;
+        font-size: 1.5cqw;
+    }
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+  <section class="card-preview" aria-hidden="true">
+    <div class="card-back">
+      <span class="cvv-code">
+        000
+      </span>
+    </div>
+
+    <div class="card-front">
+      <div class="card-logo">
+
+      </div>
+
+      <div class="card-number">
+        0000 0000 0000 0000
+      </div>
+
+      <div class="card-footer">
+        <p class="cardholder-name">
+          Jane Appleseed
+        </p>
+
+        <p class="card-date">
+          <span class="date-month">
+            00
+          </span>
+          <span class="divider">
+            /
+          </span>
+
+          <span class="date-year">
+            00
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <form class="card-form" novalidate>
+
+    <div class="field field-name">
+      <label for="cardholderName">Cardholder Name</label>
+      <input 
+        type="text" 
+        id="cardholderName"
+        name="cardholderName" 
+        placeholder="e.g. Jane Appleseed" 
+        autocomplete="off"
+        aria-describedby="cardholderName-error"
+        maxlength="24"
+        required>
+      <p class="error hidden" id="cardholderName-error" role="alert"></p>
+    </div>
+
+    <div class="field field-card-number">
+      <label for="card-number">Card number</label>
+      <input 
+        type="text"
+        id="card-number"
+        name="card-number"
+        placeholder="e.g. 1234 5678 9123 0000"
+        inputmode="numeric"
+        autocomplete="off"
+        maxlength="19"
+        aria-describedby="card-number-error"
+        required>
+      <p class="error hidden" id="card-number-error" role="alert"></p>
+    </div>
+
+    <div class="another-card-info">
+      <div class="field-group">
+        <span>Exp. Date (MM/YY)</span>
+
+        <div class="exp-date">
+
+          <div class="field field-date">
+            <label for="date-month" class="visually-hidden">Month</label>
+            <input
+              type="text"
+              id="date-month"
+              name="date-month"
+              placeholder="MM"
+              inputmode="numeric"
+              autocomplete="off"
+              maxlength="2"
+              required
+              aria-describedby="date-error">
+          </div>
+
+          <div class="field field-date">
+            <label for="date-year" class="visually-hidden">Year</label>
+
+            <input
+              type="text"
+              id="date-year"
+              name="date-year"
+              placeholder="YY"
+              inputmode="numeric"
+              autocomplete="off"
+              maxlength="2"
+              required
+              aria-describedby="date-error">
+          </div>
+        </div>
+
+        <p class="error hidden" id="date-error" role="alert"></p>
+      </div>
+
+      <div class="field field-cvv">
+        <label for="cvv-code">cvc</label>
+
+        <input
+          type="text"
+          id="cvv-code"
+          name="cvv-code"
+          placeholder="e.g. 123"
+          inputmode="numeric"
+          autocomplete="off"
+          maxlength="3"
+          required
+          aria-describedby="cvv-error">
+
+        <p class="error hidden" id="cvv-error" role="alert"></p>
+      </div>
+    </div>
+    <button class="confirm-button" type="button">Confirm</button>
+  </form>
+
+  <section class="success-screen-container hidden" aria-labelledby="success-title">
+    <div class="image-check-mark-container">
+      <div class="image-check-mark" aria-hidden="true">
+  
+      </div>
+    </div>
+
+    <div class="text-container">
+      <h1 id="success-title" class="thank-text" tabindex="-1">
+        Thank you!
+      </h1>
+
+      <p class="information-text">
+        We've added your card details
+      </p>
+    </div>
+
+    <button type="button" class="continue-button">
+      Continue
+    </button>
+  </section>
+
+  
+  <footer class="attribution">
+    <p>
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/marmelad04ka" target="_blank" rel="noopener noreferrer">marmelad04ka</a>.
+    </p>
+  </footer>
+
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>

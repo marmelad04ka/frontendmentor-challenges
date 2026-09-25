@@ -1,0 +1,261 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.card-preview {
+    height: 14.5rem;
+    width: 100%;
+    background-image: url('../../../images/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.card-back {
+    position: absolute;
+    right: 1.2rem;
+    top: 2rem;
+    height: 10rem;
+    width: 18rem;
+    background-image: url('../../../images/bg-card-back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    container-type: inline-size;
+}
+
+.cvv-code {
+    position: absolute;
+    right: 12%;
+    top: 49.5%;
+    transform: translateY(-50%);
+
+    font-size: 4cqw;
+    letter-spacing: 0.15em;
+    color: var(--text-cvc-code);
+}
+
+.card-front{
+    position: absolute;
+    top: 7.7rem;
+    left: 1.2rem;
+    height: 9.5rem;
+    width: 17rem;
+    background-image: url('../../../images/bg-card-front.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    box-shadow: 0.5rem 1rem 8rem var(--shadow);
+    container-type: inline-size;
+}
+
+.card-logo {
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 3.5rem;
+    background-image: url('../../../images/card-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.card-number {
+    padding: 0 1rem;
+    margin-top: 2.3rem;
+    letter-spacing: 0.14rem;
+    font-size: 6.5cqw;
+    color: var(--text-card-number);
+}
+
+.card-footer {
+    display: flex;
+    flex: row;
+    padding: 0 1rem;
+    color: var(--text-card-footer);
+    padding-top: 1rem;
+    font-size: 3.5cqw;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.card-date {
+    margin-left: auto;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 0 1.5rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-name label,
+.field-card-number label {
+    text-transform: uppercase;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    color: var(--input-text);
+}
+
+.another-card-info {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
+
+.field-cvv label,
+.field-group span {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    display: block;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+    color: var(--input-text);
+}
+
+.field-group {
+    flex: 1;
+    min-width: 0;
+}
+
+.exp-date {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.field-date input {
+    width: 100%;
+}
+
+.field-cvv {
+    flex: 1;
+    min-width: 0;
+}
+
+.field-cvv input {
+    width: 100%;
+}
+
+input {
+    border: 1px solid var(--input-border);
+    margin-top: 0.5rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    outline: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+input:focus:not(.error-input) {
+    border: 1px solid transparent;
+    background-image: linear-gradient(var(--input-border-gradient-start-fake), var(--input-border-gradient-start-fake)), 
+                    linear-gradient(var(--input-border-gradient-start), var(--input-border-gradient-end));
+  
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+input::placeholder {
+    color: var(--input-placeholder);
+}
+
+.confirm-button {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: var(--bg-confirm-button);
+    color: var(--text-confirm-button);
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.error {
+    color: var(--text-error);
+}
+
+.error-input {
+    border-color: var(--input-border-error);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.success-screen-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    padding: 0 1.5rem;
+}
+
+.image-check-mark {
+    height: 5rem;
+    width: 5rem;
+    background-image: url('../../../images/icon-complete.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.text-container {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.thank-text {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.information-text {
+    color: var(--text-information);
+}
+
+.continue-button {
+    margin-top: 3rem;
+    background-color: red;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: var(--bg-continue-button);
+    color: var(--text-continue-button);
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.attribution { 
+    font-size: 0.6875rem;
+    text-align: center; 
+}
+.attribution a { 
+    color: var(--text-attribution-a); 
+}

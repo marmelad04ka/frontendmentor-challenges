@@ -1,0 +1,40 @@
+:root {
+    --clr-purple-200: hsl(249, 99%, 64%);
+    --clr-purple-800: hsl(278, 94%, 30%);
+    --clr-purple-950: hsl(278, 68%, 11%);
+
+    --clr-red-400: hsl(0, 100%, 66%);
+
+    --clr-white: hsl(0, 100%, 100%);
+
+    --clr-gray-200: hsl(270, 3%, 87%);
+    --clr-gray-400: hsl(212, 12%, 71%);
+
+    --clr-blue-500: hsl(228, 45%, 44%);
+
+    --clr-black: rgba(0, 0, 0, 0.2);
+
+    --text-information: var(--clr-gray-400);
+    --text-attribution-a: var(--clr-blue-500);
+    --text-continue-button: var(--clr-white);
+    --text-confirm-button: var(--clr-white);
+    --text-error: var(--clr-red-400);
+    --text-card-footer: var(--clr-gray-200);
+    --text-card-number: var(--clr-gray-200);
+    --text-cvc-code: var(--clr-gray-200);
+
+    --bg-continue-button: var(--clr-purple-950);
+    --bg-confirm-button: var(--clr-purple-950);
+
+    --focus-visible-button: var(--clr-blue-500);
+
+    --input-border-error: var(--clr-red-400);
+    --input-placeholder: var(--clr-gray-400);
+    --input-border-gradient-start-fake: var(--clr-white);
+    --input-border-gradient-start: var(--clr-purple-200);
+    --input-border-gradient-end: var(--clr-purple-800);
+    --input-border: var(--clr-gray-200);
+    --input-text: var(--clr-purple-950);
+
+    --shadow: var(--clr-black);
+}

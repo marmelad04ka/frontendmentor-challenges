@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+@import url('base/reset.css');
+@import url('base/variables.css');
+
+@import url('mobile/mobile.css');
+@import url('desktop/desktop.css');
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+}
