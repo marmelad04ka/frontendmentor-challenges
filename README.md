@@ -51,6 +51,17 @@ View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior
 </details>
 
 <details>
+<summary>Interactive card details form</summary>
+
+Html, Css, Js.  
+View challenges [link](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw)  
+View code [link](./junior/interactive-card-details-form)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/interactive-card-details-form/)  
+</details>  
+
+</details>
+
+<details>
 <summary>Intermediate</summary>
 
 <details>
