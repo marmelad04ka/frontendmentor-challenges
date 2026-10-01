@@ -57,6 +57,15 @@ View code [link](./junior/interactive-card-details-form)
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/interactive-card-details-form/)  
 </details>
 
+<details>
+<summary>Browser extension manager UI</summary>
+
+Html, Css, Js.  
+View challenges [link](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp)  
+View code [link](./junior/browser-extension-manager-ui)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/browser-extension-manager-ui/)  
+</details>
+
 </details>
 
 <details>
