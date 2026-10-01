@@ -1,0 +1,111 @@
+@media (min-width: 768px) {
+    .extension-container {
+        margin: 5% 10% 2% 10%;
+        container-type: inline-size;
+    }
+
+    .skeleton-main-content {
+        margin-top: 5%;
+    }
+
+    .header {
+        border-radius: 1.5cqw;
+        padding: 1% 2% 1% 2%;
+        container-type: inline-size;
+    }
+
+    .logo {
+        height: 4cqw;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .theme-switcher-button {
+        padding: 1.2%;
+        margin-bottom: 0%;
+        border-radius: 1.5cqw;
+    }
+
+    .theme-switcher-button img {
+        height: 2.2cqw;
+        width: 2.2cqw;
+    }
+
+    .main-contant-container {
+        margin-top: 5%;
+    }
+
+    .main-contant-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .list-name {
+        font-size: 3cqw;
+    }
+
+    .button-list-switch {
+        padding-top: 0;
+        gap: 1cqw;
+        margin-left: auto;
+    }
+
+    .button-switch-list {
+        font-size: 1.5cqw;
+        padding: 0.8cqw 1.8cqw;
+    }
+
+    .extensions-list {
+        margin-top: 4%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1cqw;
+    }
+
+    .deletion-confirmation {
+        height: 100%;
+        padding: 10% 6%;
+        display: flex;
+        flex-direction: column;
+        gap: 2cqw;
+    }
+
+    .header-delete-question {
+        font-size: 2cqw;
+    }
+
+    .delete-button-question button {
+        font-size: 2cqw;
+    }
+
+    .extensions-element {
+        min-height: 0cqw;
+        height: 19cqw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .extensions-element-image img{
+        height: 5cqw;
+        width: 5cqw;
+    }
+
+    .element-name {
+        font-size: 2cqw;
+        font-weight: 500;
+    }
+
+    .element-description {
+        font-size: 1.4cqw;
+    }
+
+    .extensions-element-footer {
+        padding: 0%;
+        margin-top: auto;
+        padding: 0% 6% 6% 6%;
+    }
+}

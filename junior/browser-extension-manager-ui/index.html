@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <script>
+    document.documentElement.classList.add(
+      'theme-' + (localStorage.getItem('theme') || 'dark')
+    );
+  </script>
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+
+  <div class="extension-container">
+    <header class="header">
+      <div class="logo hidden">
+        <img src="images/logo-light-theme.svg" alt="Extensions" class="logo-light hidden">
+        <img src="images/logo-dark-theme.svg"  alt="Extensions" class="logo-dark hidden">
+      </div>
+      <div class="skeleton-logo">
+
+      </div>
+
+      <button type="button" class="theme-switcher-button hidden" aria-label="Toggle theme style">
+        <img src="images/icon-sun.svg" alt="" class="button-light-switch hidden" aria-hidden="true">
+        <img src="images/icon-moon.svg" alt="" class="button-dark-switch hidden" aria-hidden="true">
+      </button>
+
+      <div class="skeleton-button-theme-switcher">
+
+      </div>
+    </header>
+
+    <main class="main-contant-container">
+      <div class="main-contant-header">
+        <h1 class="list-name">Extensions List</h1>
+  
+        <nav class="button-list-switch" role="tablist" aria-label="Extension filtering">
+          <button 
+            type="button" 
+            class="button-switch-list active"
+            role="tab"
+            aria-selected="true">
+            All
+          </button>
+  
+          <button 
+            type="button" 
+            class="button-switch-list"
+            role="tab"
+            aria-selected="false">
+            Active
+          </button>
+  
+          <button 
+            type="button" 
+            class="button-switch-list"
+            role="tab"
+            aria-selected="false">
+            Inactive
+          </button>
+        </nav>
+      </div>
+
+      <ul class="extensions-list hidden">
+
+      </ul>
+
+      <div class="skeleton-main-content">
+
+      </div>
+    </main>
+  </div>
+  <footer class="attribution">
+    <p>
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/marmelad04ka" target="_blank" rel="noopener noreferrer">marmelad04ka</a>.
+    </p>
+  </footer>
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>
