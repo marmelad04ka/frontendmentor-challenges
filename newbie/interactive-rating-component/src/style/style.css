@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+@import url('base/reset.css');
+@import url('base/variables.css');
+
+@import url('mobile/mobile.css');
+@import url('desktop/desktop.css');
+
+.hidden {
+  display: none;
+}
+
+button {
+  border: none;
+  font-family: 'Overpass', sans-serif;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+fieldset {
+  border: none;
+}

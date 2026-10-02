@@ -1,0 +1,43 @@
+:root {
+    --clr-orange-500: hsl(25, 97%, 53%);
+    --clr-white: hsl(0, 100%, 100%);
+    --clr-grey-500: hsl(217, 12%, 63%);
+    --clr-grey-850: hsl(213, 16%, 22%);
+    --clr-grey-900: hsl(213, 19%, 18%);
+    --clr-grey-950: hsl(216, 12%, 8%);
+
+    --bg-selected-rating: var(--clr-grey-850);
+    --bg-submit-button: var(--clr-orange-500);
+    --bg-active-button: var(--clr-orange-500);
+    --bg-button-choice: var(--clr-grey-850);
+    --bg-icon-star: var(--clr-grey-850);
+    --bg-rating-component: var(--clr-grey-900);
+    --bg-page: var(--clr-grey-950);
+
+    --text-attribution: var(--clr-grey-500);
+    --text-a: var(--clr-orange-500);
+    --text-tys-headline: var(--clr-white);
+    --text-tys-description: var(--clr-grey-500);
+    --text-selceted-rating: var(--clr-orange-500);
+    --text-button-choice: var(--clr-grey-500);
+    --text-active-button-choice: var(--clr-grey-950);
+    --text-rating-selected: var(--clr-grey-500);
+    --text-rating-headline: var(--clr-white);
+
+    --bg-diabled-submit-button: var(--clr-orange-500);
+
+    --fv-bg-button-choice: var(--clr-white);
+    --fv-outline-button-choice: var(--clr-white);
+    --fv-text-button-choice: var(--clr-grey-950);
+    --fv-active-outline-button-choice: var(--clr-orange-500);
+    --fv-bg-active-button-choice: var(--clr-orange-500);
+    --fv-bg-button-submit: var(--clr-white);
+    --fv-text-button-submit: var(--clr-grey-950);
+    --fv-outline-button-submit: var(--clr-white);
+
+    --hover-bg-button-choice: var(--clr-white);
+    --hover-text-button-choice: var(--clr-grey-950);
+    --hover-active-bg: var(--clr-orange-500);
+    --hover-active-text: var(--clr-grey-950);
+    --hover-bg-submit-button: var(--clr-white);
+}
