@@ -34,6 +34,15 @@ View challenges [link](https://www.frontendmentor.io/challenges/nft-preview-card
 View code [link](.newbie/nft-preview-card-component/)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/nft-preview-card-component/)
 </details>
+
+<details>
+<summary>Interactive rating component</summary>
+
+HTML, CSS, Js  
+View challenges [link](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)  
+View code [link](.newbie/interactive-rating-component)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/interactive-rating-component/)
+</details>
 </details>
 
 <details>
