@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+  <main class="main-content-container">
+    <img src="images/logo.svg" alt="Splitter" class="logo">
+
+    <form class="tip-calculator-container" novalidate>
+      <div class="elective-section">
+        <div class="bill-section">
+          <label for="bill">Bill</label>
+          <div class="input-bill-container">
+            <img src="images/icon-dollar.svg" alt="" aria-hidden="true">
+            <input
+              type="text"
+              id="bill"
+              name="bill"
+              autocomplete="off"
+              inputmode="decimal"
+              aria-describedby="bill-error"
+              aria-invalid="false"
+              placeholder="0">
+          </div>
+          <p class="error hidden" id="bill-error" role="alert">Can't be zero</p>
+        </div>
+
+        <fieldset class="select-tip-section">
+          <legend> Select Tip %</legend>
+          <div class="choice-tip-list">
+            <label class="tip-option">
+              <input type="radio" name="tip" value="5">
+              <span class="tip-option__face">5%</span>
+            </label>
+            <label class="tip-option">
+              <input type="radio" name="tip" value="10">
+              <span class="tip-option__face">10%</span>
+            </label>
+            <label class="tip-option">
+              <input type="radio" name="tip" value="15">
+              <span class="tip-option__face">15%</span>
+            </label>
+            <label class="tip-option">
+              <input type="radio" name="tip" value="25">
+              <span class="tip-option__face">25%</span>
+            </label>
+            <label class="tip-option">
+              <input type="radio" name="tip" value="50">
+              <span class="tip-option__face">50%</span>
+            </label>
+            <input
+              class="custom-input"
+              type="text"
+              id="tip-custom"
+              name="tip-custom"
+              placeholder="Custom"
+              aria-describedby="tip-custom-error"
+              aria-invalid="false">
+          </div>
+          <p class="error hidden" id="tip-custom-error" role="alert">Can't be zero</p>
+        </fieldset>
+
+        <div class="number-of-people-section">
+          <label for="number-of-people">Number of People</label>
+          <div class="input-number-of-people-container">
+            <img src="images/icon-person.svg" alt="" aria-hidden="true">
+            <input
+              type="text"
+              id="number-of-people"
+              name="number-of-people"
+              inputmode="numeric"
+              placeholder="0"
+              aria-describedby="number-of-people-error"
+              aria-invalid="false">
+          </div>
+          <p class="error hidden" id="number-of-people-error" role="alert">Can't be zero</p>
+        </div>
+      </div>
+
+      <section class="result-section" aria-label="Results">
+        <div class="tip-amount-container">
+          <div class="tip-amount-info-text">
+            <span class="tip-amount">Tip Amount</span>
+            <span class="person">/ person</span>
+          </div>
+          <output class="tip-amount-value" aria-live="polite">$0.00</output>
+        </div>
+
+        <div class="total-container">
+          <div class="total-info-text">
+            <span class="total">Total</span>
+            <span class="person">/ person</span>
+          </div>
+          <output class="total-value" aria-live="polite">$0.00</output>
+        </div>
+
+        <button type="button" class="reset-button" disabled aria-describedby="submit-hint">Reset</button>
+      </section>
+    </form>
+  </main>
+
+  
+  <footer class="attribution">
+    <p>
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/marmelad04ka" target="_blank" rel="noopener noreferrer">marmelad04ka</a>.
+    </p>
+  </footer>
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>

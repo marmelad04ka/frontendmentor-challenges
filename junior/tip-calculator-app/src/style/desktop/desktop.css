@@ -1,0 +1,114 @@
+@media (min-width: 768px) {
+
+    .main-content-container img {
+        height: 3cqw;
+        width: 5cqw;
+    }
+
+    .main-content-container {
+        padding-top: 4cqw;
+        gap: 3cqw;
+    }
+
+    .tip-calculator-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2cqw;
+        border-radius: 2cqw;
+        height: 30cqw;
+        width: 60cqw;
+        padding: 2cqw 2.5cqw;
+    }
+
+    .elective-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0cqw;
+    }
+
+    .bill-section, 
+    .number-of-people-section {
+        gap: 0.7cqw;
+        gap: 0.2cqw;
+    }
+
+    .bill-section {
+        margin-top: 1cqw;
+    }
+
+    .bill-section label,
+    .select-tip-section legend,
+    .number-of-people-section label{
+        font-size: 1cqw;
+    }
+
+    .input-bill-container img,
+    .input-number-of-people-container img {
+        height: 1cqw;
+        width: 0.7cqw;
+        left: 1.2cqw;
+        top: 1cqw;
+    }
+
+    .input-number-of-people-container img {
+        width: 0.8cqw;
+    }
+
+    .input-bill-container input,
+    .custom-input,
+    .input-number-of-people-container input {
+        font-size: 1.5cqw;
+        padding: 0.3cqw 1.2cqw;
+        border-radius: 0.5cqw;
+    }
+
+    .select-tip-section,
+    .number-of-people-section {
+        margin-top: 2cqw;
+        position: relative;
+    }
+
+    .choice-tip-list {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 1cqw;
+    }
+
+    .tip-option__face {
+        padding: 0.7cqw 2cqw;
+        font-size: 1.2cqw;
+        border-radius: 0.4cqw;
+    }
+
+    .result-section {
+        border-radius: 0.8cqw;
+        padding: 2.5cqw 3cqw 2.5cqw 3cqw;
+        gap: 1.5cqw;
+        margin-top: 0;
+        height: 100%;
+    }
+
+    .tip-amount,
+    .total {
+        font-size: 1cqw;
+    }
+
+    .person {
+        font-size: 0.8cqw;
+    }
+
+    .tip-amount-value,
+    .total-value {
+        font-size: 2.8cqw;
+    }
+
+    .reset-button {
+        padding: 0.5cqw 0;
+        border-radius: 0.4cqw;
+        font-size: 1.3cqw;
+        margin-top: auto;
+    }
+
+    .attribution { 
+        font-size: 0.9cqw; 
+    }
+}

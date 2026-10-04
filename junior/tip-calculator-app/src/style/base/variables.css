@@ -1,0 +1,40 @@
+:root {
+    --clr-green-900: hsl(183, 100%, 15%);
+    --clr-green-400: hsl(172, 67%, 45%);
+    --clr-grey-500: hsl(186, 14%, 43%);
+    --clr-grey-400: hsl(184, 14%, 56%);
+    --clr-grey-200: hsl(185, 41%, 84%);
+    --clr-grey-50: hsl(189, 47%, 97%);
+    --clr-white: hsl(0, 100%, 100%);
+    --clr-red: red;
+
+    --bg-page: var(--clr-grey-200);
+    --bg-tip-calculator: var(--clr-white);
+    --bg-input: var(--clr-grey-50);
+    --bg-tip-option: var(--clr-green-900);
+    --bg-tip-option-checked: var(--clr-green-400);
+    --bg-tip-option-checked-hover: var(--clr-grey-200);
+    --bg-tip-option-hover: var(--clr-green-400);
+    --bg-result-section: var(--clr-green-900);
+    --bg-reset-button: var(--clr-green-400);
+    --bg-reset-button-hover: var(--clr-grey-200);
+    --bg-reset-button-disabled: var(--clr-grey-500);
+    --bg-reset-button-disabled-hover: var(--clr-grey-500);
+
+    --text-lbl: var(--clr-grey-400);
+    --text-input: var(--clr-green-900);
+    --text-placeholder: var(--clr-grey-400);
+    --text-tip-option: var(--clr-white);
+    --text-tip-option-checked: var(--clr-green-900);
+    --text-tip-option-hover: var(--clr-green-900);
+    --text-tip-amount-total: var(--clr-grey-50);
+    --text-person: var(--clr-grey-400);
+    --text-value: var(--clr-green-400);
+    --text-reset-button: var(--clr-green-900);
+    --text-error: var(--clr-red);
+
+    --border-focus-input: var(--clr-green-400);
+    --border-error-input: var(--clr-red);
+
+    --outline-tip-option-input-fv: var(--clr-green-400);
+}
