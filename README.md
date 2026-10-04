@@ -75,6 +75,15 @@ View code [link](./junior/browser-extension-manager-ui)
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/browser-extension-manager-ui/)  
 </details>
 
+<details>
+<summary>Tip calculator app</summary>
+
+Html, Css, Js.  
+View challenges [link](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)  
+View code [link](./junior/tip-calculator-app)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/tip-calculator-app/)  
+</details>
+
 </details>
 
 <details>
