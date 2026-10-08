@@ -43,6 +43,15 @@ View challenges [link](https://www.frontendmentor.io/challenges/interactive-rati
 View code [link](.newbie/interactive-rating-component)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/interactive-rating-component/)
 </details>
+
+<details>
+<summary>Recipe page</summary>
+
+HTML, CSS  
+View challenges [link](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)  
+View code [link](.newbie/recipe-page)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/recipe-page/)
+</details>
 </details>
 
 <details>
