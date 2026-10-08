@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    .main-content-container {
+        max-width: 900px;
+        margin-inline: auto;
+        margin-top: var(--main-content-container-margin-top);
+        padding: var(--main-content-container-padding);
+        border-radius: 1.5rem;
+        overflow: hidden;
+    }
+
+    .main-content-container img {
+        width: 100%;
+        display: block;
+        border-radius: 1.5rem;
+    }
+
+    .recipe-container {
+        padding-inline: 0;
+        padding-bottom: 0;
+    }
+}

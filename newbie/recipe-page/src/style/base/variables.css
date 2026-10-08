@@ -1,0 +1,99 @@
+:root {
+    --fs-sm-small: clamp(0.25rem, 0.23vi + 0.19rem, 0.47rem);
+    --fs-sm: clamp(0.8rem, 0.1vi + 0.78rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.2vi + 0.95rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.35vi + 1.16rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 0.58vi + 1.42rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 0.9vi + 1.73rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 1.38vi + 2.1rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 2.05vi + 2.54rem, 5rem);
+
+    --space-3xs: clamp(0.25rem, 0.2356rem + 0.0641vw, 0.3125rem);
+    --space-2xs: clamp(0.5rem, 0.4712rem + 0.1282vw, 0.625rem);
+    --space-xs: clamp(0.75rem, 0.7067rem + 0.1923vw, 0.9375rem);
+    --space-s: clamp(1rem, 0.9423rem + 0.2564vw, 1.25rem);
+    --space-m: clamp(1.5rem, 1.4135rem + 0.3846vw, 1.875rem);
+    --space-l: clamp(2rem, 1.8846rem + 0.5128vw, 2.5rem);
+    --space-xl: clamp(3rem, 2.8269rem + 0.7692vw, 3.75rem);
+    --space-2xl: clamp(4rem, 3.7692rem + 1.0256vw, 5rem);
+    --space-3xl: clamp(6rem, 5.6538rem + 1.5385vw, 7.5rem);
+
+    /* One-up pairs */
+    --space-3xs-2xs: clamp(0.25rem, 0.1635rem + 0.3846vw, 0.625rem);
+    --space-2xs-xs: clamp(0.5rem, 0.399rem + 0.4487vw, 0.9375rem);
+    --space-xs-s: clamp(0.75rem, 0.6346rem + 0.5128vw, 1.25rem);
+    --space-s-m: clamp(1rem, 0.7981rem + 0.8974vw, 1.875rem);
+    --space-m-l: clamp(1.5rem, 1.2692rem + 1.0256vw, 2.5rem);
+    --space-l-xl: clamp(2rem, 1.5962rem + 1.7949vw, 3.75rem);
+    --space-xl-2xl: clamp(3rem, 2.5385rem + 2.0513vw, 5rem);
+    --space-2xl-3xl: clamp(4rem, 3.1923rem + 3.5897vw, 7.5rem);
+
+    /* Custom pairs */
+    --space-s-l: clamp(1rem, 0.6538rem + 1.5385vw, 2.5rem);
+
+    --clr-white: hsl(0, 0%, 100%);
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+
+    --brown-800: hsl(14, 45%, 36%);
+
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+
+    --bg-page: var(--stone-100);
+    --bg-main-content: var(--clr-white);
+
+    --text-h2: var(--brown-800);
+    --text-description: var(--stone-600);
+    --text-preparation-time-block: var(--rose-50);
+    --text-ptb-h3: var(--rose-800);
+    --text-ul: var(--stone-600);
+    --text-li-before: var(--brown-800);
+    --text-ind-ins-block-border-bottom: var(--stone-150);
+    --text-ol: var(--stone-600);
+    --text-instruction-block-li-marker: var(--rose-800);
+    --text-th: var(--stone-600);
+    --text-td: var(--brown-800);
+
+    --border-bottom-th-td: var(--stone-150);
+
+    --recipe-container-gap: var(--space-s);
+    --ul-gap: var(--space-s);
+    --li-gap: var(--space-l);
+    --ol-gap: var(--space-s);
+    --nutrition-block-gap: var(--space-s);
+
+    --recipe-container-padding: var(--space-m);
+    --preparation-time-block-padding: var(--space-m);
+    --main-content-container-padding: var(--space-l);
+
+    --preparation-time-block-padding-bottom: var(--space-xs);
+
+    --ul-padding-block: var(--space-m);
+    --ol-padding-block: var(--space-m);
+    --th-td-padding-block: var(--space-s);
+
+    --text-indent-th-td: var(--space-m);
+
+    --ol-padding-inline: var(--space-s);
+
+    --ul-padding-right: var(--space-s);
+
+    --instruction-block-li-padding-left: var(--space-s);
+
+    --li-before-width: var(--fs-sm-small);
+
+    --li-before-heigh: var(--fs-sm-small);
+
+    --main-content-container-margin-top: var(--space-3xl);
+
+    --h1-font-size: var(--fs-xl);
+    --h2-font-size: var(--fs-lg);
+    --description-font-size: var(--fs-base);
+    --ptb-h3-font-size: var(--fs-md);
+    --li-font-size: var(--fs-base);
+    --instruction-block-li-font-size: var(--fs-base);
+    --attribution-font-size: var(--space-xs);
+}
