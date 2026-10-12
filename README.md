@@ -1,7 +1,7 @@
 # Frontend Mentor Challenges
 <details>
 <summary>Newbie</summary> 
-
+-------------------------------------------------
 <details>
 <summary>Social Links Profile</summary>
 
@@ -10,6 +10,7 @@ View challenges [link](https://www.frontendmentor.io/challenges/social-links-pro
 View code [link](./newbie/social-links-profile/)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/social-links-profile/)  
 </details>  
+--------------------------------------------------
 <details>
 <summary>Results summary component</summary>
 
@@ -17,7 +18,8 @@ Semantic HTML, CSS, and JavaScript were used for the implementation to dynamical
 View challenges [link](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)  
 View code [link](.newbie/results-summary-component/)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/results-summary-component/)
-</details>  
+</details> 
+--------------------------------------------------
 <details>
 <summary>Product preview card component</summary>
 
@@ -26,6 +28,7 @@ View challenges [link](https://www.frontendmentor.io/challenges/product-preview-
 View code [link](.newbie/product-preview-card-component/)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/product-preview-card-component/)
 </details>
+--------------------------------------------------
 <details>
 <summary>Nft preview card component</summary>
 
@@ -34,7 +37,7 @@ View challenges [link](https://www.frontendmentor.io/challenges/nft-preview-card
 View code [link](.newbie/nft-preview-card-component/)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/nft-preview-card-component/)
 </details>
-
+--------------------------------------------------
 <details>
 <summary>Interactive rating component</summary>
 
@@ -43,7 +46,7 @@ View challenges [link](https://www.frontendmentor.io/challenges/interactive-rati
 View code [link](.newbie/interactive-rating-component)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/interactive-rating-component/)
 </details>
-
+--------------------------------------------------
 <details>
 <summary>Recipe page</summary>
 
@@ -52,11 +55,21 @@ View challenges [link](https://www.frontendmentor.io/challenges/recipe-page-KiTs
 View code [link](.newbie/recipe-page)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/recipe-page/)
 </details>
+--------------------------------------------------
+<details>
+<summary>Faq accordion</summary>
+
+HTML, CSS  
+View challenges [link](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)  
+View code [link](.newbie/faq-accordion)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/faq-accordion/)
+</details>
 </details>
 
+-----------------------------------------
 <details>
 <summary>Junior</summary>
-
+--------------------------------------------------
 <details>
 <summary>Advice generator app</summary>
 
@@ -65,7 +78,7 @@ View challenges [link](https://www.frontendmentor.io/challenges/advice-generator
 View code [link](./junior/advice-generator-app)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/advice-generator-app/)  
 </details>  
-
+--------------------------------------------------
 <details>
 <summary>Interactive card details form</summary>
 
@@ -74,7 +87,7 @@ View challenges [link](https://www.frontendmentor.io/challenges/interactive-card
 View code [link](./junior/interactive-card-details-form)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/interactive-card-details-form/)  
 </details>
-
+--------------------------------------------------
 <details>
 <summary>Browser extension manager UI</summary>
 
@@ -83,7 +96,7 @@ View challenges [link](https://www.frontendmentor.io/challenges/browser-extensio
 View code [link](./junior/browser-extension-manager-ui)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/browser-extension-manager-ui/)  
 </details>
-
+--------------------------------------------------
 <details>
 <summary>Tip calculator app</summary>
 
@@ -95,6 +108,7 @@ View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior
 
 </details>
 
+-----------------
 <details>
 <summary>Intermediate</summary>
 
