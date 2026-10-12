@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    .background {
+        height: 20cqi;
+        background-image: url('../../../images/background-pattern-desktop.svg');
+    }
+
+    .faq-accrodion-list-container {
+        max-width: 40rem;
+        margin-inline: auto;
+    }
+
+    .skeleton {
+        height: 35cqi;
+    }
+}
