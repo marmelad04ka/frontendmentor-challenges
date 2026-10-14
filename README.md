@@ -64,6 +64,16 @@ View challenges [link](https://www.frontendmentor.io/challenges/faq-accordion-wy
 View code [link](.newbie/faq-accordion)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/faq-accordion/)
 </details>
+--------------------------------------------------
+<details>
+<summary>Base Apparel coming soon page</summary>
+
+HTML, CSS, JS 
+View challenges [link](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)  
+View code [link](.newbie/base-apparel-coming-soon-page)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/newbie/base-apparel-coming-soon-page/)
+</details>
+
 </details>
 
 -----------------------------------------
