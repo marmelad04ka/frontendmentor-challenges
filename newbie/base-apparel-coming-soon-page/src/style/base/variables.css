@@ -1,0 +1,86 @@
+:root {
+    /* ===== Primitives: colors ===== */
+    --clr-pink-100: hsl(0, 100%, 98%);
+    --clr-pink-300: hsl(0, 80%, 86%);
+    --clr-pink-400: hsl(0, 36%, 70%);
+    --clr-pink-500: hsl(0, 74%, 74%);
+    --clr-red-500: hsl(0, 93%, 68%);
+    --clr-gray-900: hsl(0, 6%, 24%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-blue: hsl(228, 45%, 44%);
+
+    /* ===== Primitives: Typography ===== */
+    --fs-sm: clamp(0.8rem, 0.09vi + 0.78rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.19vi + 0.95rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.34vi + 1.17rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 0.57vi + 1.43rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 0.89vi + 1.74rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 1.35vi + 2.12rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 2.02vi + 2.58rem, 5rem);
+    --fs-custom: clamp(0.9rem, 0.101vi + 0.878rem, 1rem);
+
+    /* ===== Primitives: Space ===== */
+    --space-3xs: clamp(0.25rem, 0.2348rem + 0.0647vw, 0.3125rem);
+    --space-2xs: clamp(0.5rem, 0.4848rem + 0.0647vw, 0.5625rem);
+    --space-xs: clamp(0.75rem, 0.7197rem + 0.1294vw, 0.875rem);
+    --space-s: clamp(1rem, 0.9697rem + 0.1294vw, 1.125rem);
+    --space-m: clamp(1.5rem, 1.4545rem + 0.1942vw, 1.6875rem);
+    --space-l: clamp(2rem, 1.9393rem + 0.2589vw, 2.25rem);
+    --space-xl: clamp(3rem, 2.909rem + 0.3883vw, 3.375rem);
+    --space-2xl: clamp(4rem, 3.8786rem + 0.5178vw, 4.5rem);
+    --space-3xl: clamp(6rem, 5.818rem + 0.7767vw, 6.75rem);
+    --space-3xll: clamp(7rem, 6.7878rem + 0.9061vw, 7.875rem);
+
+    /* One-up pairs */
+    --space-3xs-2xs: clamp(0.25rem, 0.1742rem + 0.3236vw, 0.5625rem);
+    --space-2xs-xs: clamp(0.5rem, 0.409rem + 0.3883vw, 0.875rem);
+    --space-xs-s: clamp(0.75rem, 0.659rem + 0.3883vw, 1.125rem);
+    --space-s-m: clamp(1rem, 0.8331rem + 0.712vw, 1.6875rem);
+    --space-m-l: clamp(1.5rem, 1.318rem + 0.7767vw, 2.25rem);
+    --space-l-xl: clamp(2rem, 1.6663rem + 1.4239vw, 3.375rem);
+    --space-xl-2xl: clamp(3rem, 2.6359rem + 1.5534vw, 4.5rem);
+    --space-2xl-3xl: clamp(4rem, 3.3325rem + 2.8479vw, 6.75rem);
+
+    /* Custom pairs */
+    --space-s-l: clamp(1rem, 0.6966rem + 1.2945vw, 2.25rem);
+
+    /* ===== Semantics: colors ===== */
+    --color-text-emphasis: var(--clr-pink-400);
+    --color-text-headline: var(--clr-gray-900);
+    --color-text-description: var(--clr-pink-400);
+    --color-text-placeholder: var(--clr-pink-400);
+    --color-text-error: var(--clr-pink-500);
+    --color-text-attribution: var(--clr-blue);
+
+    --color-border-input: var(--clr-pink-400);
+
+    --color-bg-start-button: var(--clr-pink-300);
+    --color-bg-end-button: var(--clr-pink-500);
+    --color-bg-button-hover: var(--clr-pink-300);
+    --color-bg-page: var(--clr-pink-100);
+
+    /* ===== Semantics: typography ===== */
+    --font-size-headline: var(--fs-xxxl);
+    --font-size-description: var(--fs-custom);
+    --font-size-input: var(--fs-base);
+    --font-size-error: var(--fs-sm);
+
+    /* ===== Semantics: spacing and radii ===== */
+    --padding-logo: var(--space-l);
+    --padding-inline-text-block: var(--space-l);
+    --padding-text-block-top: var(--space-xl);
+    --padding-desc-block: var(--space-s);
+    --padding-block-input: var(--space-s);
+    --padding-left-input: var(--space-m);
+    --padding-right-input: var(--space-3xll);
+    --radius-input: var(--space-xl);
+    --padding-inline-button: var(--space-l);
+    --gap-input-right: var(--space-3xs);
+    --padding-left-error: var(--space-m);
+    --padding-top-error: var(--space-2xs);
+    --margin-top-form: var(--space-s);
+
+    /* ===== Semantics: element dimensions ===== */
+    --size-logo-img: var(--fs-lg);
+    --size-error-img: var(--fs-lg);
+}

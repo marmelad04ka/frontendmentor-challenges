@@ -1,0 +1,54 @@
+@media (min-width: 768px) {
+    body {
+        background-color: transparent;
+        background-image: url('../../../images/bg-pattern-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 80% 100%;
+
+        grid-template-columns: 1.4fr 1fr; 
+        grid-template-rows: 1fr 6fr 0.2fr; 
+        grid-template-areas:
+            "header image"
+            "main-content image"
+            "footer image";
+    }
+
+    .block-1 {
+        padding-left: 0;
+        padding-left: clamp(5rem, -3.00rem + 12.50vw, 17rem);
+    }
+
+    .description,
+    .headline {
+        text-align: left;
+    }
+
+    .email-form {
+        margin-top: var(--margin-top-form);
+    }
+
+    .block-3 {
+        padding: 0;
+        max-width: 27rem;
+        max-width: clamp(27rem, 21.67rem + 8.33vw, 35rem);
+        margin-left: clamp(5rem, -3.00rem + 12.50vw, 17rem);
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .email-form input {
+        padding-right: 9.5rem;
+    }
+
+    .confirm-button {
+        padding-inline: 3rem;
+        cursor: pointer;
+        &:hover {
+            background-image: none;
+            background-color: var(--color-bg-button-hover);
+        }
+    }
+}
