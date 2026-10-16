@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .age-calculator-container {
+        margin-top: clamp(3rem, -3.67rem + 10.42vw, 13rem);
+        width: clamp(40rem, 33.33rem + 10.42vw, 50rem);
+    }
+
+    .button-container {
+        align-items: end;
+    }
+
+    .button-container button {
+        &:hover {
+            background-color: var(--color-bg-button-hover);
+        }
+    }
+
+    input {
+        cursor: pointer;
+        &:hover {
+            border: 1px solid var(--color-input-hover);
+        }
+    }
+}

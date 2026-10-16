@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+  <main class="age-calculator-container">
+    <h1 class="visually-hidden">Age calculator</h1>
+    
+    <fieldset class="date-inputs-container">
+      <legend class="visually-hidden">Date of birth</legend>
+      <div class="date-day-input">
+        <label for="date-day">Day</label>
+        <input
+          type="text"
+          id="date-day"
+          inputmode="numeric"
+          name="date-day"
+          maxlength="2"
+          placeholder="DD"
+          autocomplete="off"
+          aria-invalid="false"
+          aria-describedby="date-day-error"
+        >
+        <p class="error hidden" id="date-day-error" role="alert"></p>
+      </div>
+
+      <div class="date-month-input">
+        <label for="date-month">Month</label>
+        <input
+          type="text"
+          id="date-month"
+          inputmode="numeric"
+          maxlength="2"
+          name="date-month"
+          placeholder="MM"
+          autocomplete="off"
+          aria-invalid="false"
+          aria-describedby="date-month-error"
+        >
+        <p class="error hidden" id="date-month-error" role="alert"></p>
+      </div>
+
+      <div class="date-year-input">
+        <label for="date-year">Year</label>
+        <input
+          type="text"
+          id="date-year"
+          maxlength="4"
+          name="date-year"
+          placeholder="YYYY"
+          autocomplete="off"
+          aria-invalid="false"
+          aria-describedby="date-year-error"
+        >
+        <p class="error hidden" id="date-year-error" role="alert"></p>
+      </div>
+    </fieldset>
+
+    <div class="button-container">
+      <div class="delimiter" aria-hidden="true"></div>
+      <button type="button" aria-label="Calculate age">
+        <img src="images/icon-arrow.svg" alt="" aria-hidden="true">
+      </button>
+    </div>
+
+    <output class="result-container" aria-atomic="true">
+      <div class="years-result">
+        <span class="years-result-value">- -</span>
+        <span>years</span>
+      </div>
+
+      <div class="months-result">
+        <span class="months-result-value">- -</span>
+        <span>months</span>
+      </div>
+
+      <div class="days-result">
+        <span class="days-result-value">- -</span>
+        <span>days</span>
+      </div>
+    </output>
+  </main>
+  
+  <footer class="attribution">
+    <p>
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/marmelad04ka" target="_blank" rel="noopener noreferrer">marmelad04ka</a>.
+    </p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>

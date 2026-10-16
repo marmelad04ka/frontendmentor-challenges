@@ -1,0 +1,120 @@
+body {
+    background-color: var(--color-bg-page);
+    font-family: 'Poppins', sans-serif;
+    margin-top: var(--margin-top-body);
+    margin-inline: var(--margin-inline-body);
+}
+
+.age-calculator-container {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-card);
+    border-bottom-right-radius: var(--radius-card-bottom-right);
+    padding-top: var(--padding-top-card);
+    padding-bottom: var(--padding-bottom-card);
+    padding-inline: var(--padding-inline-card);
+}
+
+.date-inputs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: var(--gap-inputs-inline);
+}
+
+.date-day-input,
+.date-month-input,
+.date-year-input {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-inputs-block);
+}
+
+.date-day-input label,
+.date-month-input label,
+.date-year-input label {
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-label);
+    font-size: var(--font-size-label);
+    font-weight: 700;
+    color: var(--color-label);
+}
+
+input {
+    padding: var(--padding-input);
+    font-size: var(--font-size-input);
+    font-weight: 800;
+    border-radius: var(--radius-input);
+    border: 1px solid var(--color-border-input);
+}
+
+.error {
+    color: var(--color-error-text);
+    font-size: var(--font-size-error);
+}
+
+.date-day-input label.error-state,
+.date-month-input label.error-state,
+.date-year-input label.error-state { 
+    color: var(--color-error-text);
+}
+
+.date-day-input input.error-input,
+.date-month-input input.error-input,
+.date-year-input input.error-input { 
+    border: 1px solid var(--color-error-text);
+}
+
+.button-container {
+    position: relative;
+    min-height: var(--size-button-container);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--padding-button-container);
+}
+
+.delimiter {
+    border-bottom: 1px solid var(--color-delimiter);
+    width: 100%;
+}
+
+.button-container button {
+    position: absolute;
+    height: clamp(4rem, 3.83rem + 0.73vw, 5rem);
+    width: clamp(4rem, 3.83rem + 0.73vw, 5rem);
+    background-color: var(--color-button);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container button img {
+    height: var(--size-img-button);
+    width: var(--size-img-button);
+}
+
+.result-container {
+    padding-top: var(--padding-result);
+    display: block;
+    font-style: italic;
+    font-size: var(--font-size-result);
+    font-weight: 800;
+}
+
+.days-result-value,
+.months-result-value,
+.years-result-value {
+    color: var(--color-value);
+}
+
+.attribution { 
+    font-size: var(--fs-sm); 
+    text-align: center;
+    font-style: italic; 
+    font-weight: 800;
+}
+
+.attribution a { 
+    color: var(--color-text-attribution); 
+}
