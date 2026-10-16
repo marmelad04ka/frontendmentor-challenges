@@ -115,6 +115,15 @@ View challenges [link](https://www.frontendmentor.io/challenges/tip-calculator-a
 View code [link](./junior/tip-calculator-app)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/tip-calculator-app/)  
 </details>
+--------------------------------------------------
+<details>
+<summary>Age calculator app</summary>
+
+Html, Css, Js.  
+View challenges [link](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q)  
+View code [link](./junior/age-calculator-app)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/age-calculator-app/)  
+</details>
 
 </details>
 
