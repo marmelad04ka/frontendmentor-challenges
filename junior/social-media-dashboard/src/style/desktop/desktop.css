@@ -1,0 +1,68 @@
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-media-dashboard {
+        width: clamp(60rem, 33.33rem + 41.67vw, 100rem);
+    }
+
+    .overview-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: var(--gap-overview-main);
+    }
+
+    .overview-today-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .overview-today-type {
+        font-size: clamp(1rem, 0.67rem + 0.52vw, 1.5rem);
+    }
+
+    .overview-today-count {
+        font-size: clamp(2rem, 1.33rem + 1.04vw, 3rem);
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .total-followers {
+        border-bottom: 0;
+        padding: 0;
+    }
+
+    .theme-switcher-container {
+        padding: 0;
+        gap: var(--space-s);
+    }
+
+    .switcher-container {
+        &:hover {
+            background-image: linear-gradient(135deg, var(--color-bg-start-switcher-hover), var(--color-bg-end-switcher-hover));
+        }
+    }
+
+    .main-card {
+        cursor: pointer;
+        &:hover {
+            background-color: var(--color-main-card-hover);
+        }
+    }
+
+    .overview-today-card {
+        cursor: pointer;
+        &:hover {
+            background-color: var(--color-main-card-hover);
+        }
+    }
+}

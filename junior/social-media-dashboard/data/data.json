@@ -1,0 +1,130 @@
+{
+    "facebook": {
+        "login": "@nathanf",
+        "img": "images/icon-facebook.svg",
+        "title": "facebook",
+        "audience": {
+            "today": 1987,
+            "change": {
+                "value": 12,
+                "unit": "absolute",
+                "type": "increase"
+            },
+            "title": "followers"
+        },
+        "page_views": {
+            "today": 87,
+            "change": {
+                "value": 3,
+                "unit": "percent",
+                "type": "increase"
+            },
+            "title": "Page Views"
+        },
+        "likes": {
+            "today": 52,
+            "change": {
+                "value": 2,
+                "unit": "percent",
+                "type": "decrease"
+            },
+            "title": "Likes"
+        }
+    },
+    "instagram": {
+        "login": "@realnathanf",
+        "img": "images/icon-instagram.svg",
+        "title": "instagram",
+        "audience": {
+            "today": 11734,
+            "change": {
+                "value": 1099,
+                "unit": "absolute",
+                "type": "increase"
+            },
+            "title": "followers"
+        },
+        "profile_views": {
+            "today": 52000,
+            "change": {
+                "value": 1375,
+                "unit": "percent",
+                "type": "increase"
+            },
+            "title": "Profile Views"
+        },
+        "likes": {
+            "today": 5462,
+            "change": {
+                "value": 2257,
+                "unit": "percent",
+                "type": "increase"
+            },
+            "title": "Likes"
+        }
+    },
+    "twitter": {
+        "login": "@nathanf",
+        "img": "images/icon-twitter.svg",
+        "title": "twitter",
+        "audience": {
+            "today": 1044,
+            "change": {
+                "value": 99,
+                "unit": "absolute",
+                "type": "increase"
+            },
+            "title": "followers"
+        },
+        "retweets": {
+            "today": 117,
+            "change": {
+                "value": 303,
+                "unit": "percent",
+                "type": "increase"
+            },
+            "title": "Retweets"
+        },
+        "likes": {
+            "today": 507,
+            "change": {
+                "value": 553,
+                "unit": "percent",
+                "type": "increase"
+            },
+            "title": "Likes"
+        }
+    },
+    "youtube": {
+        "login": "Nathan F.",
+        "img": "images/icon-youtube.svg",
+        "title": "youtube",
+        "audience": {
+            "today": 8239,
+            "change": {
+                "value": 144,
+                "unit": "absolute",
+                "type": "decrease"
+            },
+            "title": "subscribers"
+        },
+        "likes": {
+            "today": 107,
+            "change": {
+                "value": 19,
+                "unit": "percent",
+                "type": "decrease"
+            },
+            "title": "Likes"
+        },
+        "total_views": {
+            "today": 1407,
+            "change": {
+                "value": 12,
+                "unit": "percent",
+                "type": "decrease"
+            },
+            "title": "Total Views"
+        }
+    }
+}

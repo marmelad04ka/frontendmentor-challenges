@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Social media dashboard with theme switcher]</title>
+  <script>
+    document.documentElement.classList.add(
+      'theme-' + (localStorage.getItem('theme') || 'dark')
+    );
+  </script>
+
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body class="smooth-change-of-theme">
+  <main class="social-media-dashboard">
+    <header>
+      <div class="header-text-block">
+        <h1 class="headline smooth-change-of-theme">Social Media Dashboard</h1>
+        <dl class="total-followers smooth-change-of-theme">
+          <dt class="total-followers-static">Total Followers:</dt>
+          <dd class="total-followers-count-skeleton" aria-hidden="true"></dd>
+          <dd class="total-followers-count hidden">23,004</dd>
+        </dl>
+      </div>
+
+      <div class="theme-switcher-container">
+        <span id="theme-switcher-label" class="theme-switcher-text smooth-change-of-theme">Dark Mode</span>
+        <div class="switcher-container-skeleton" aria-hidden="true"></div>
+        <div 
+          class="switcher-container smooth-change-of-theme align-start hidden"  
+          tabindex="0"
+          role="switch"
+          aria-checked="true"
+          aria-labelledby="theme-switcher-label">
+            <button 
+              type="button"
+              class="move-circle-switcher-container"
+              tabindex="-1"
+              aria-hidden="true">
+            </button>
+        </div>
+      </div>
+    </header>
+    <div class="overview-main-skeleton" aria-hidden="true"></div>
+    <ul class="overview-main hidden">
+      
+    </ul>
+
+    <section class="overview-today" aria-labelledby="overview-today-heading">
+      <h2 id="overview-today-heading " class="header smooth-change-of-theme">
+        Overview - Today
+      </h2>
+
+      <div class="overview-today-skeleton" aria-hidden="true"></div>
+
+      <ul class="overview-today-list hidden">
+        
+      </ul>
+    </section>
+  </main>
+  
+  <footer class="attribution">
+    <p>
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/marmelad04ka" target="_blank" rel="noopener noreferrer">marmelad04ka</a>.
+    </p>
+  </footer>
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>

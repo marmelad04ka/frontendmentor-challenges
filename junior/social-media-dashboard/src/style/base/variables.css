@@ -1,0 +1,182 @@
+:root {
+    /* ===== Primitives: colors ===== */
+    --clr-green-300: hsl(146, 68%, 55%);
+    --clr-green-500: hsl(163, 72%, 41%);
+    --clr-blue-50: hsl(225, 100%, 98%);
+    --clr-blue-500: hsl(203, 89%, 53%);
+    --clr-blue-600: hsl(208, 92%, 53%);
+    --clr-blue-700: hsl(210, 79%, 56%);
+    --clr-blue-900: hsl(228, 45%, 44%);
+    --clr-yellow-500:hsl(37, 97%, 70%);
+    --clr-orange-500:hsl(5, 77%, 71%);
+    --clr-red-400:hsl(329, 70%, 58%);
+    --clr-red-500: hsl(356, 69%, 56%);
+    --clr-red-700: hsl(348, 97%, 39%);
+    --clr-gray-400: hsl(230, 22%, 74%);
+    --clr-gray-650: hsl(228, 12%, 44%);
+    --clr-gray-900: hsl(232, 19%, 15%);
+    --clr-gray-950: hsl(230, 17%, 14%);
+    --clr-navy-50: hsl(227, 47%, 96%);
+    --clr-navy-950: hsl(228, 28%, 20%);
+    --clr-white: hsl(0, 100%, 100%);
+
+    /* ===== Primitives: Size ===== */
+    --size-4xs: clamp(0.5rem,  0.48rem + 0.06vi, 0.5625rem);
+    --size-3xs: clamp(0.75rem, 0.72rem + 0.13vi, 0.875rem);
+    --size-3xs-l: clamp(0.8rem,  0.78rem + 0.10vi, 0.89rem);
+    --size-2xs: clamp(1rem,    0.97rem + 0.13vi, 1.125rem);
+    --size-xs:  clamp(1.25rem, 1.21rem + 0.19vi, 1.5rem);
+    --size-xs-l: clamp(1.5rem, 1.45rem + 0.16vi, 1.6875rem);
+    --size-s:   clamp(1.75rem, 1.70rem + 0.26vi, 2rem);
+    --size-m:   clamp(2.25rem, 2.18rem + 0.32vi, 2.625rem);
+    --size-l:   clamp(3rem,    2.91rem + 0.39vi, 3.375rem);
+    --size-xl:  clamp(4rem,    3.88rem + 0.52vi, 4.5rem);
+    --size-2xl: clamp(6rem,    5.82rem + 0.78vi, 6.75rem);
+    --size-3xl: clamp(8rem,    7.76rem + 1.04vi, 9rem);
+    --size-4xl: clamp(12rem,  11.64rem + 1.55vi, 13.5rem);
+    --size-5xl: clamp(16rem,  15.52rem + 2.07vi, 18rem);
+    --size-6xl: clamp(24rem,  23.28rem + 3.11vi, 27rem);
+
+    /* ===== Primitives: Typography ===== */
+    --fs-sm: clamp(0.8rem, 0.09vi + 0.78rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.19vi + 0.95rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.34vi + 1.17rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 0.57vi + 1.43rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 0.89vi + 1.74rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 1.35vi + 2.12rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 2.02vi + 2.58rem, 5rem);
+    --fs-4xl: clamp(4rem, 2.69vi + 3.31rem, 6.56rem);
+    /*если много*/
+    --fs-4xl: clamp(4rem, 2.2vi + 3.39rem, 6rem);
+    --fs-custom: clamp(0.9rem, 0.101vi + 0.878rem, 1rem);
+    --fs-md-14px: clamp(1.09rem, 0.51vi + 0.97rem, 1.58rem);
+
+    /* ===== Primitives: Space ===== */
+    --space-3xs: clamp(0.25rem, 0.2348rem + 0.0647vw, 0.3125rem);
+    --space-2xs: clamp(0.5rem, 0.4848rem + 0.0647vw, 0.5625rem);
+    --space-3xs-2: clamp(0.3rem, 0.2848rem + 0.0647vw, 0.3625rem);
+    --space-xs: clamp(0.75rem, 0.7197rem + 0.1294vw, 0.875rem);
+    --space-s: clamp(1rem, 0.9697rem + 0.1294vw, 1.125rem);
+    --space-m: clamp(1.5rem, 1.4545rem + 0.1942vw, 1.6875rem);
+    --space-l: clamp(2rem, 1.9393rem + 0.2589vw, 2.25rem);
+    --space-xl: clamp(3rem, 2.909rem + 0.3883vw, 3.375rem);
+    --space-2xl: clamp(4rem, 3.8786rem + 0.5178vw, 4.5rem);
+    --space-3xl: clamp(6rem, 5.818rem + 0.7767vw, 6.75rem);
+    --space-3xll: clamp(7rem, 6.7878rem + 0.9061vw, 7.875rem);
+
+    /* Custom pairs */
+    --space-s-l: clamp(1rem, 0.6966rem + 1.2945vw, 2.25rem);
+
+    /* ===== Semantics: colors ===== */
+    
+    /* ===== Semantics: typography ===== */
+    --font-size-headline: var(--fs-lg);
+    --font-size-main-type: var(--fs-base);
+    --font-sizr-main-count: 4rem;
+    --font-size-overview-header: var(--fs-lg);
+    --font-size-overview-today-card: var(--fs-md-14px);
+    --font-size-overview-today-count: var(--fs-xxl);
+    
+    /* ===== Semantics: spacing and radii ===== */
+    --margin-inline-main: var(--space-m);
+    --margin-block-main: var(--space-l);
+    --gap-total-follower: var(--space-3xs);
+    --padding-bottom-total-follower: var(--space-l);
+    --padding-top-total-follower: var(--space-2xs);
+    --padding-top-theme-swticher-container: var(--space-m);
+    --padding-inline-switcher-container: var(--space-3xs);
+    --radius-switcher: var(--space-s);
+    --gap-overview-main: var(--space-l);
+    --padding-block-main-card: var(--space-m);
+    --gap-main-card: var(--space-s);
+    --gap-social-network-info: var(--space-2xs);
+    --letter-spacing-main-type: var(--space-3xs-2);
+    --gap-change-count: var(--space-3xs);
+    --padding-block-overview-main: var(--space-xl);
+    --radius-main-card: var(--space-3xs);
+    --border-top-main-card: var(--space-3xs-2);
+    --gap-overview-today-list: var(--space-s);
+    --padding-overview-today-card: var(--space-m);
+    --gap-overview-today-card: var(--space-l);
+    --gap-overview-todya-percent: var(--space-3xs);
+    --padding-bottom-overview-todya-percent: var(--space-3xs);
+    --padding-top-overview-today-list: var(--space-m);
+    --radius-skeleton-overview-main: var(--space-3xs);
+    --margin-block-skeleton-overview-main: var(--space-s);
+    
+    /* ===== Semantics: element dimensions ===== */
+    --size-switcher-container-height: var(--space-l);
+    --size-switcher-container-width: var(--space-2xl);
+    --size-social-network-info-img: var(--space-m);
+    --size-triangle-height: var(--size-4xs);
+    --size-triangle-width: var(--size-3xs);
+    --size--social-network-info-overview: var(--size-xs-l);
+    --size-skeleton-overview-main-heigth: 20rem;
+    --size-circle: var(--space-m);
+}
+
+html.theme-dark {
+    --color-bg-page: var(--clr-gray-950);
+    --color-headline: var(--clr-white);
+    --color-main-text: var(--clr-gray-400);
+    --color-border-bottom-total-follower: var(--clr-gray-650);
+    --color-bg-circle: var(--clr-gray-950);
+    --color-bg-start-switcher: var(--clr-blue-700);
+    --color-bg-end-switcher:  var(--clr-green-300);
+    --color-bg-card: var(--clr-navy-950);
+    --color-text-login: var(--clr-gray-400);
+    --color-text-main-count: var(--clr-white);
+    --color-text-main-type: var(--clr-gray-400);
+    --color-text-increase: var(--clr-green-500);
+    --color-text-decrease: var(--clr-red-500);
+    --color-border-top-facebook: var(--clr-blue-600);
+    --color-border-top-twitter: var(--clr-blue-500);
+    --color-overview-today-header: var(--clr-white);
+    --color-overview-today-type: var(--clr-gray-400);
+    --color-overview-today-count: var(--clr-white);
+    --color-border-top-youtube: var(--clr-red-700);
+    --color-border-top-start: var(--clr-yellow-500);
+    --color-border-top-middle: var(--clr-orange-500);
+    --color-border-top-end: var(--clr-red-400);
+    --color-bg-start-switcher-hover: var(--clr-blue-700);
+    --color-bg-end-switcher-hover:  var(--clr-green-300);
+    --color-main-card-hover: var(--clr-gray-650);
+    --color-skeleton-base: var(--clr-gray-400);
+    --color-skeleton-glint: var(--clr-gray-650);
+    --color-skeleton-reduce: var(--clr-gray-650);
+    --color-text-attribution: var(--clr-blue-900);
+    --color-atribution: var(--clr-white);
+}
+
+html.theme-light {
+    --color-bg-page: var(--clr-white);
+    --color-headline: var(--clr-gray-950);
+    --color-main-text: var(--clr-gray-650);
+    --color-border-bottom-total-follower: var(--clr-gray-650);
+    --color-bg-circle: var(--clr-white);
+    --color-bg-start-switcher: var(--clr-gray-400);
+    --color-bg-end-switcher:  var(--clr-gray-400);
+    --color-bg-card: var(--clr-navy-50);
+    --color-text-login: var(--clr-gray-950);
+    --color-text-main-count: var(--clr-gray-950);
+    --color-text-main-type: var(--clr-gray-650);
+    --color-text-increase: var(--clr-green-500);
+    --color-text-decrease: var(--clr-red-500);
+    --color-border-top-facebook: var(--clr-blue-600);
+    --color-border-top-twitter: var(--clr-blue-500);
+    --color-overview-today-header: var(--clr-gray-950);
+    --color-overview-today-type: var(--clr-gray-650);
+    --color-overview-today-count: var(--clr-gray-950);
+    --color-border-top-youtube: var(--clr-red-700);
+    --color-border-top-start: var(--clr-yellow-500);
+    --color-border-top-middle: var(--clr-orange-500);
+    --color-border-top-end: var(--clr-red-400);
+    --color-bg-start-switcher-hover: var(--clr-blue-700);
+    --color-bg-end-switcher-hover:  var(--clr-green-300);
+    --color-main-card-hover: var(--clr-gray-400);
+    --color-skeleton-base: var(--clr-gray-400);
+    --color-skeleton-glint: var(--clr-gray-650);
+    --color-skeleton-reduce: var(--clr-gray-650);
+    --color-text-attribution: var(--clr-blue-900);
+    --color-atribution: var(--clr-navy-950);
+}
