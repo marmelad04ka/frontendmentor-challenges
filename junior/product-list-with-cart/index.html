@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+  <main>
+    <section class="main-section" aria-labelledby="desserts-title">
+      <h1 id="desserts-title">Desserts</h1>
+      <div class="skeleton-product-list " aria-hidden="true"></div>
+      <ul class="product-card-list hidden">
+       
+      </ul>
+    </section>
+    <section class="cart-section" aria-labelledby="cart-title">
+      <h2 id="cart-title">
+        Your Cart
+        (<span class="cart-count" aria-live="polite">0</span>)
+      </h2>
+      <div class="skeleton-cart" aria-hidden="true"></div>
+      <div class="empty-state hidden" role="status">
+        <img src="images/illustration-empty-cart.svg" alt="" aria-hidden="true">
+        <p>Your added items will appear here</p>
+      </div>
+
+      <div class="selected-state hidden">
+        <ul class="selected-items-container" aria-label="Selected items">
+          
+        </ul>
+
+        <dl class="total-order-container">
+          <dt class="total-order-text">Order Total</dt>
+          <dd class="total-price"><data value="0">$0</data></dd>
+        </dl>
+
+        <p class="info-block">
+          <img src="images/icon-carbon-neutral.svg" alt="" aria-hidden="true">
+          <span> This is a <strong>carbon-neutral</strong> delivery</span>
+        </p>
+
+        <button class="confirm-order" type="button">
+          Confirm Order
+        </button>
+      </div>
+    </section>
+
+    <dialog class="order-confirmed-section"  aria-labelledby="order-confirmed-title">
+      <div class="order-container">
+        <img src="images/icon-order-confirmed.svg" alt="" aria-hidden="true">
+        <h2 id="order-confirmed-title" class="order-confirmed-title">
+          <span>Order</span>
+          <span>Confirmed</span>
+        </h2>
+        <p class="info-text">We hope you enjoy your food!</p>
+        <div class="order-info">
+          <ul class="order-list">
+            
+          </ul>
+          <dl class="order-confirmed-total">
+            <dt class="order-total-text">Order Total</dt>
+            <dd class="order-total-price"><data value="46.50">$46.50</data></dd>
+          </dl>
+        </div>
+
+        <button class="new-order-button" type="button">
+          Start New Order
+        </button>
+      </div>
+    </dialog>
+  </main>
+  <footer class="attribution">
+    <p>
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/marmelad04ka" target="_blank" rel="noopener noreferrer">marmelad04ka</a>.
+    </p>
+  </footer>
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>

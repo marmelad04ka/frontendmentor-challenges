@@ -1,0 +1,137 @@
+@media (min-width: 1280px) {
+    main {  
+        grid-template-columns: 2fr 1fr;
+        width: clamp(75rem, 30.00rem + 56.25vw, 120rem)
+    }
+
+    .product-card-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card-image {
+        height: var(--size-card-image);
+        height: clamp(11rem, 6.33rem + 7.29vw, 18rem);
+        width: 100%;
+        overflow: hidden; 
+    }
+
+    .info-block {
+        padding-inline: var(--info-block-padding-inline);
+    }
+
+    .change-count-item {
+        width: clamp(9rem, 5.67rem + 5.21vw, 14rem);
+    }
+
+    .order-confirmed-section[open] {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .order-container {
+        width: 100%;
+        max-width: clamp(40rem, 25.00rem + 18.75vw, 55rem);
+        height: auto;
+        max-height: var(--size-order-container-height);
+        border-radius: var(--radius-order-container);
+        padding-inline: var(--padding-inline-order-container); 
+    }
+
+    .order-confirmed-title {
+        flex-direction: row;
+        gap: var(--gap-order-confirmed-title);
+    }
+
+    .add-to-cart-button {
+        &:hover {
+            color: var(--color-hover-add-btn);
+            border: var(--border-add-button) solid var(--color-border-hover-add-btn);
+        }
+
+        &:focus-visible {
+            color: var(--color-hover-add-btn);
+            border: var(--border-add-button) solid var(--color-border-hover-add-btn);
+            outline-color: var(--color-border-hover-add-btn);
+            outline-style: solid;   
+            outline-width: var(--border-add-button);
+
+            outline-width: var(--outline-width);
+            outline-offset: var(--outline-offset);
+        }
+    }
+
+    .decrement-button,
+    .increment-button {
+        &:hover {
+            background-color: var(--color-bg-hover-change-btn);
+        }
+
+        &:hover img {
+            filter: brightness(0) saturate(100%) invert(28%) sepia(21%) saturate(6645%) hue-rotate(356deg) brightness(92%) contrast(94%);
+        }
+
+        &:focus-visible {
+            background-color: var(--color-bg-hover-change-btn);
+            outline-color: var(--color-bg-hover-change-btn);
+        }
+
+        &:focus-visible img {
+            filter: brightness(0) saturate(100%) invert(28%) sepia(21%) saturate(6645%) hue-rotate(356deg) brightness(92%) contrast(94%);
+        }
+    }
+
+    .remove-button {
+        &:hover img {
+            filter: brightness(0) saturate(100%) invert(7%) sepia(7%) saturate(7244%) hue-rotate(337deg) brightness(95%) contrast(98%);
+        }
+        
+        &:hover {
+            border: var(--border-remove-button) solid var(--color-border-remove-btn);
+        }
+
+        &:focus-visible {
+            outline-color: var(--color-border-remove-btn);
+            outline-style: solid;   
+            outline-width: var(--border-remove-button);
+
+            outline-width: var(--outline-width);
+            outline-offset: var(--outline-offset);
+        }
+
+        &:focus-visible img {
+            filter: brightness(0) saturate(100%) invert(7%) sepia(7%) saturate(7244%) hue-rotate(337deg) brightness(95%) contrast(98%);
+        }
+    }
+
+    .confirm-order {
+        &:hover {
+            background-color: var(--color-bg-confrimg-btn);
+        }
+
+        &:focus-visible {
+            background-color: var(--color-bg-confrimg-btn);
+            outline-color: var(--color-bg-confrimg-btn);
+            outline-style: solid;   
+            outline-width: var(--border-remove-button);
+
+            outline-width: var(--outline-width);
+            outline-offset: var(--outline-offset);
+        }
+    }
+
+    .new-order-button {
+        &:hover {
+            background-color: var(--color-bg-new-order-btn);
+        }
+
+        &:focus-visible {
+            background-color: var(--color-bg-new-order-btn);
+            outline-color: var(--color-bg-new-order-btn);
+            outline-style: solid;   
+            outline-width: var(--outline-width);
+            outline-offset: var(--outline-offset);
+        }
+    }
+
+}

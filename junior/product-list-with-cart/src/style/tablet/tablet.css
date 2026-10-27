@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: var(--gap-main);
+    }
+
+    .product-card-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--gap-product-list);
+    }
+
+    .card-image {
+        height: clamp(11rem, 6.33rem + 7.29vw, 18rem);
+        width: 100%;
+        overflow: hidden; 
+    }
+
+    .info-block {
+        padding-inline: var(--padding-inline-info-block);
+    }
+    
+}
