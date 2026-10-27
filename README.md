@@ -124,6 +124,15 @@ View challenges [link](https://www.frontendmentor.io/challenges/age-calculator-a
 View code [link](./junior/age-calculator-app)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/age-calculator-app/)  
 </details>
+--------------------------------------------------
+<details>
+<summary>Product list with cart</summary>
+
+Html, Css, Js.  
+View challenges [link](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d)  
+View code [link](./junior/product-list-with-cart)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/junior/product-list-with-cart/)  
+</details>
 
 </details>
 
