@@ -148,4 +148,13 @@ View challenges [link](https://www.frontendmentor.io/challenges/calculator-app-9
 View code [link](https://github.com/marmelad04ka/frontendmentor-challenges/tree/main/intermediate/calculator-app)  
 View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/intermediate/calculator-app/)
 </details>
+--------------------------------------------------
+<details>
+<summary>Launch countdown timer</summary>
+
+Html, Css, Js.  
+View challenges [link](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-)  
+View code [link](./intermediate/launch-countdown-timer)  
+View site [link](https://marmelad04ka.github.io/frontendmentor-challenges/intermediate/launch-countdown-timer/)  
+</details>
 </details>
