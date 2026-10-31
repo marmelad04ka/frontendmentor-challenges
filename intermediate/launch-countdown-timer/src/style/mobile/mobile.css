@@ -1,0 +1,259 @@
+body {
+    font-family: "Red Hat Text", sans-serif;
+    background: linear-gradient(180deg, var(--color-bg-start), var(--color-bg-end));
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+    height: 100dvh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../../../images/bg-stars.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-main-content);
+}
+
+.footer {
+    background-image: url('../../../images/pattern-hills.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+h1 {
+    color: var(--color-h1);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: var(--font-size-h1);
+    letter-spacing: var(--letter-spacing-h1);
+    text-align: center;
+    padding-inline: var(--padding-inline-h1);
+}
+
+.timer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: var(--gap-timer-container);
+    padding-inline: var(--padding-inline-timer-container);
+}
+
+.timer-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-timer-element);
+}
+
+.text {
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-text);
+    font-size: var(--font-size-text);
+}
+
+.card {
+    background-color: var(--color-bg-card);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: var(--size-card-height);
+    width: var(--size-card-width);
+    position: relative;
+
+    border-radius: var(--radius-card);
+    overflow: hidden;
+
+    color: var(--color-text-card);
+    font-size: var(--fs-xxxl);
+
+    perspective: var(--perspective-card);
+
+    box-shadow: 0 var(--box-shadow-x) 0 0 var(--color-bg-card);
+}
+
+.card-top {
+    position: relative;
+    background-color: var(--color-bg-card-top);
+    overflow: hidden;
+    color: var(--color-card-top);
+}
+
+.number-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    line-height: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    min-width: 3.5ch;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.card-bottom {
+    background-color: var(--color-bg-card-bottom);
+    overflow: hidden;
+    position: relative;
+}
+
+.number-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    line-height: 0;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    min-width: 3.5ch;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.circle-left,
+.circle-right {
+    position: absolute;
+    background-color: var(--color-bg-circle);
+    height: var(--size-circle);
+    width: var(--size-circle);
+    border-radius: 50%;
+    top: 50%;
+    z-index: 50;
+}
+.circle-left {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.circle-right {
+    right: 0%;
+    transform: translate(50%, -50%);
+}
+
+.flip-card-top {
+    position: absolute;
+    overflow: hidden;
+    background-color: var(--color-bg-flip-card-top);
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+    transform-origin: bottom;
+    top:0;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    color: var(--color-card-top);
+}
+
+.flip-card-bottom {
+    position: absolute;
+    overflow: hidden;
+    background-color: var(--color-bg-flip-card-bottom);
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+    transform-origin: top;
+    bottom: 0;
+    backface-visibility: hidden;
+    transform: rotateX(90deg);
+}
+
+.flip-number-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    line-height: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    min-width: 3.5ch;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.flip-number-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    line-height: 0;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    min-width: 3.5ch;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.card.animating .flip-card-top {
+    animation: flip-top 0.3s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+    opacity: 1;
+}
+
+.card.animating .flip-card-bottom {
+    animation: flip-bottom 0.3s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+    animation-delay: 0.3s;
+    opacity: 1;
+}
+
+@keyframes flip-top {
+    0% { transform: rotateX(0deg); }
+    100% { transform: rotateX(-90deg); }
+}
+
+@keyframes flip-bottom {
+    0% { transform: rotateX(90deg); }
+    100% { transform: rotateX(0deg); }
+}
+footer {
+    background-image: url('../../../images/pattern-hills.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: var(--padding-top-footer);
+}
+
+.attribution {
+    background-color: transparent;
+    color: var(--color-attribution);
+    font-size: var(--fs-sm); 
+}
+
+.attribution a { 
+    color: var(--color-text-attribution); 
+}
+
+.link-container ul {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-footer);
+}
+
+.link-container img {
+    height: var(--size-link);
+    width: var(--size-link);
+}

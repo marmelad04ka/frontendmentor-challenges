@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+    .main-content {
+        gap: clamp(6rem, 3.33rem + 4.17vw, 10rem);
+    }
+
+    .timer-container {
+        gap: clamp(2rem, 0.67rem + 2.08vw, 4rem);
+    }
+
+    .card {
+        height: clamp(9rem, 5.00rem + 6.25vw, 15rem);
+        width: clamp(9rem, 5.00rem + 6.25vw, 15rem);
+
+        font-size: clamp(5.5rem, 3.17rem + 3.65vw, 9rem);
+
+        box-shadow: 0 clamp(0.4375rem, 0.15rem + 0.46vw, 0.875rem) 0 0 var(--color-bg-card);
+    }
+
+    h1 {
+        font-size: clamp(1.55rem, 0.58rem + 1.51vw, 3rem);
+    }
+
+    .text {
+        font-size: clamp(0.875rem, 0.29rem + 0.91vw, 1.75rem);
+    }
+
+    .timer-element {
+        gap: clamp(1.3125rem, 0.44rem + 1.37vw, 2.625rem);
+    }
+
+    .link-container img {
+        &:hover {
+            cursor: pointer;
+            filter: brightness(0) saturate(100%) invert(53%) sepia(61%) saturate(2951%) hue-rotate(311deg) brightness(101%) contrast(95%);
+        }
+    }
+
+    .circle-left,
+    .circle-right {
+        height: clamp(0.875rem, 0.58rem + 0.46vw, 1.3125rem);
+        width: clamp(0.875rem, 0.58rem + 0.46vw, 1.3125rem);
+    }
+}

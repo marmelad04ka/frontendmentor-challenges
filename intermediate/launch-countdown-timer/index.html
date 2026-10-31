@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Launch countdown timer</title>
+
+  <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+  <main>
+    <div class="main-content">
+      <h1>We're launching soon</h1>
+      <section class="timer-container" aria-label="Countdown timer">
+        <div class="timer-element">
+          <div class="card" id="days" role="timer" aria-label="Days remaining">
+            <div class="card-top" aria-hidden="true">
+              <span class="number-top"></span>
+            </div>
+  
+            <div class="card-bottom" aria-hidden="true">
+              <span class="number-bottom"></span>
+            </div>
+  
+            <div class="flip-card-top hidden" aria-hidden="true">
+              <span class="flip-number-top"></span>
+            </div>
+            <div class="flip-card-bottom hidden" aria-hidden="true">
+              <span class="flip-number-bottom"></span>
+            </div>
+  
+            <div class="circle-left" aria-hidden="true"></div>
+            <div class="circle-right" aria-hidden="true"></div>
+          </div>
+
+          <span class="text" aria-hidden="true">days</span>
+        </div>
+
+        <div class="timer-element">
+          <div class="card" id="hours" role="timer" aria-label="Hours remaining">
+            <div class="card-top" aria-hidden="true">
+              <span class="number-top"></span>
+            </div>
+
+            <div class="card-bottom" aria-hidden="true">
+              <span class="number-bottom"></span>
+            </div>
+
+            <div class="flip-card-top hidden" aria-hidden="true">
+              <span class="flip-number-top"></span>
+            </div>
+            <div class="flip-card-bottom hidden" aria-hidden="true">
+              <span class="flip-number-bottom"></span>
+            </div>
+
+            <div class="circle-left" aria-hidden="true"></div>
+            <div class="circle-right" aria-hidden="true"></div>
+          </div>
+
+          <span class="text" aria-hidden="true">hours</span>
+        </div>
+
+        <div class="timer-element">
+          <div class="card" id="minutes" role="timer" aria-label="Minutes remaining">
+            <div class="card-top" aria-hidden="true">
+              <span class="number-top"></span>
+            </div>
+
+            <div class="card-bottom" aria-hidden="true">
+              <span class="number-bottom"></span>
+            </div>
+
+            <div class="flip-card-top hidden" aria-hidden="true">
+              <span class="flip-number-top"></span>
+            </div>
+            <div class="flip-card-bottom hidden" aria-hidden="true">
+              <span class="flip-number-bottom"></span>
+            </div>
+
+            <div class="circle-left" aria-hidden="true"></div>
+            <div class="circle-right" aria-hidden="true"></div>
+          </div>
+
+          <span class="text" aria-hidden="true">minutes</span>
+        </div>
+
+        <div class="timer-element">
+          <div class="card" id="seconds" role="timer" aria-label="Seconds remaining">
+            <div class="card-top" aria-hidden="true">
+              <span class="number-top"></span>
+            </div>
+
+            <div class="card-bottom" aria-hidden="true">
+              <span class="number-bottom"></span>
+            </div>
+
+            <div class="flip-card-top hidden" aria-hidden="true">
+              <span class="flip-number-top"></span>
+            </div>
+            <div class="flip-card-bottom hidden" aria-hidden="true">
+              <span class="flip-number-bottom"></span>
+            </div>
+
+            <div class="circle-left" aria-hidden="true"></div>
+            <div class="circle-right" aria-hidden="true"></div>
+          </div>
+
+          <span class="text" aria-hidden="true">seconds</span>
+        </div>
+      </section>
+      <p class="sr-only" aria-live="polite" aria-atomic="true" id="timer-live-text"></p>
+    </div>
+  </main>
+  
+  <footer>
+    <nav class="link-container" aria-label="Social media">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank" rel="nooppener noreferrer">
+            <img src="images/icon-facebook.svg" alt="facebook">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://pinterest.com/" target="_blank" rel="nooppener noreferrer">
+            <img src="images/icon-pinterest.svg" alt="pinterest">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/" target="_blank" rel="nooppener noreferrer">
+            <img src="images/icon-instagram.svg" alt="instagram">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <p class="attribution">
+      Challenge by 
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by 
+      <a href="https://www.frontendmentor.io/profile/marmelad04ka" target="_blank" rel="noopener noreferrer">marmelad04ka</a>.
+    </p>
+  </footer>
+  <script type="module" src="src/js/app.js" defer></script>
+</body>
+</html>
